@@ -1,11 +1,11 @@
 import { Ship } from "./ship";
 
 export class Gameboard {
-  constructor(size) {
+  constructor() {
     this.board = [];
-    for (let y = 0; y < size; y++) {
+    for (let y = 0; y < 10; y++) {
       let row = [];
-      for (let x = 0; x < size; x++) {
+      for (let x = 0; x < 10; x++) {
         row.push(null);
       }
       this.board.push(row);
@@ -40,7 +40,7 @@ export class Gameboard {
   _determineTargetCellPosition(coordinates) {
     const target = coordinates;
     const start = 0;
-    const end = this.board.length - 1;
+    const end = 9;
 
     if (target[0] === start) {
       if (target[1] === start) return "bottom-left";
