@@ -1,4 +1,4 @@
-import { Gameboard } from "./Gameboard";
+import { Gameboard } from "./gameboard";
 
 export class Player {
   constructor(name, boardSize, playerType) {
