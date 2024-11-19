@@ -18,4 +18,10 @@ export class Gameboard {
       this.board[coord[0]][coord[1]] = ship;
     });
   }
+
+  receiveAttack(coordinates) {
+    const target = this.board[coordinates[0]][coordinates[1]];
+    if (target === null) this.board[coordinates[0]][coordinates[1]] = 0;
+    else this.board[coordinates[0]][coordinates[1]].hit();
+  }
 }
