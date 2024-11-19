@@ -6,4 +6,9 @@ export class Game {
     this.player2 = new Player(player2_name, boardSize, player2_type);
     this.currentPlayer = this.player1;
   }
+
+  nextPlayer() {
+    if (this.currentPlayer === this.player1) this.currentPlayer = this.player2
+    else this.currentPlayer = this.player1
+  }
 }
