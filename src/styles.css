@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  background-color: rgba(8, 8, 8, 0.904);
+}
+
+#header {
+  height: 5vh;
+}
+
+#main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  height: 5vh;
+}
