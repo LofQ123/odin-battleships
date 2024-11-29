@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="headBottom" preserveAspectRatio="none" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1980 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_176);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#_Безымянный_градиент_212);
+      }
+
+      .cls-3 {
+        fill: url(#_Безымянный_градиент_177);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_212" data-name="Безымянный градиент 212" x1="990" y1="68" x2="990" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="#666"/>
+      <stop offset=".48" stop-color="#8f8f8f"/>
+      <stop offset=".75" stop-color="#a5a5a5"/>
+      <stop offset=".98" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_176" data-name="Безымянный градиент 176" x1="990" y1="55" x2="990" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c1c24"/>
+      <stop offset=".64" stop-color="#1a1a22"/>
+      <stop offset=".87" stop-color="#14131b"/>
+      <stop offset="1" stop-color="#0d0c13"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_177" data-name="Безымянный градиент 177" x1="990" y1="0" x2="990" y2="55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#202129"/>
+      <stop offset=".24" stop-color="#2b2c35"/>
+      <stop offset=".56" stop-color="#34363e"/>
+      <stop offset="1" stop-color="#373942"/>
+    </linearGradient>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g id="head_bottom">
+      <g>
+        <rect id="head_bottom_side" class="cls-2" y="55" width="1980" height="13"/>
+        <path id="head_bottom_top" class="cls-2" d="m1980,0v54.79c-659.99.08-1320.01.13-1980,.21V0h1980Z"/>
+      </g>
+      <g>
+        <rect id="head_bottom_side-2" data-name="head_bottom_side" class="cls-1" y="55" width="1980" height="13"/>
+        <path id="head_bottom_top-2" data-name="head_bottom_top" class="cls-3" d="m1980,0v54.79c-659.99.08-1320.01.13-1980,.21V0h1980Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

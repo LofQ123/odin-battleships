@@ -1,19 +1,179 @@
 body {
   height: 100vh;
+  width: 100vw;
   background-color: rgba(8, 8, 8, 0.904);
 }
 
-#header {
-  height: 5vh;
+#container_game{
+  height: 100%;
+  width: 100%;
 }
 
-#main {
-  height: 90vh;
+#container_head{
+  height: 6vh;
+}
+
+#container_main{
+  height: 94vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+#container_sidebarLeft, #container_sidebarRight {
+  height: 93vh;
+  width: 20vw;
+}
+
+#container_center {
+  height: 93vh;
+  width: 60vw;
+}
+
+#container_centerTop {
+  outline: 1px solid red;
+  height: 22vh;
+}
+
+#container_centerMiddle {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+#container_centerBottom {
+  height: 61vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#footer {
-  height: 5vh;
+#container_gameboardMain {
+  width: 56vw;
+  height: 57vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0.5vw;
+}
+
+#backgroundMain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+#headBottom, #headTop{
+  width: 100vw;
+}
+
+#headTop {
+  position: absolute;
+  height: 8vh;
+  z-index: 1;
+  top:1;
+  left: 0;
+}
+
+#headBottom{
+  height: 7vh;
+}
+
+#frameLeft, #frameRight {
+  position: absolute;
+  bottom: 0;
+  width: 4.8vw;
+  height:93vh;
+  z-index: 3;
+}
+
+#frameLeft {
+  left: 0;
+}
+
+#frameRight {
+  right: 0;
+}
+
+#sidebarLeft, #sidebarRight {
+  position: absolute;
+  height: 93vh;
+  width: 21vw;
+  bottom: 0;
+  z-index: 2;
+}
+
+#sidebarLeft {
+  left: 0;
+}
+
+#sidebarRight {
+  right: 0;
+}
+
+#middleBar {
+  width: 60vw;
+  height: 7vh;
+  align-self: center;
+  position:absolute;
+  z-index: 1;
+}
+
+#displayLeft {
+  height:10vh;
+  z-index: 2;
+  padding-left: 0.8vh;
+  position: absolute;
+  left: 20vw;
+
+}
+
+#displayRight {
+  z-index: 2;
+  height: 10vh;
+  position: absolute;
+  right: 20vw;
+  padding-right: 0.8vh;
+}
+
+#gameboardLeft, #gameboardRight {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+#content_gameboardLeft {
+  width: 22.1vw;
+  height: 22.1vw;
+  position: absolute;
+  margin-left: 3.55vw;
+  margin-bottom: 0.55vw;
+}
+
+#content_gameboardRight {
+  height: 16.96vw;
+  width: 16.96vw;;
+  position: absolute;
+  margin-left: 35.5vw;
+  margin-bottom: 4.67vw;
+}
+
+#buttonAllies, #buttonEnemies {
+  position: absolute;
+  height: 2.26vw;
+  margin-left: 27.64vw;
+}
+
+#buttonAllies {
+  margin-bottom: -11.15vw;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+#buttonEnemies {
+  margin-bottom: -19.35vw;
+  cursor: pointer;
+  pointer-events: all;
 }

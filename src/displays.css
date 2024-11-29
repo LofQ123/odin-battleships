@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=VT323&display=swap');
+
+:root {
+  --displayGreen: rgba(60, 255, 0, 0.555);
+  --displayRed: rgb(255, 0, 0);
+  --displayBlack: rgb(14, 13, 13);
+  --crosshairMiddle: rgba(54, 187, 27, 0.164);
+  --frameColor1: rgba(12, 12, 12, 0.904);
+  --displayColor1: rgb(5, 22, 3);
+  --displayLineColor1: rgba(16, 58, 22, 0.404);
+  --displayMarkColor1: rgba(181, 192, 180, 0.849);
+}
+
+#container_cellsLeft, #container_cellsRight {
+  display: grid;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  background-color: var(--displayColor1); /* HERE HERE HERE HERE  */
+  box-shadow: 0px 0px 18px 8px rgba(70, 121, 76, 0.493) inset;
+}
+
+#container_cellsLeft {
+  width: 22.1vw;
+  height: 22.1vw;
+}
+
+#container_cellsRight {
+  width: 16.96vw;
+  height: 16.96vw;
+}
+
+.displayLeft_cell, .displayRight_cell {
+  border: 1px solid var(--displayLineColor1);
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.displayLeft_cell.enemy, .displayRight_cell.enemy {
+  background-color: var(--displayBlack);
+  z-index: 0;
+}
+
+.displayLeft_cell.highlighted, .displayRight_cell.highlighted {
+  background-color: var(--crosshairMiddle);
+  box-sizing: border-box;
+}
+
+.displayLeft_crosshair_Y {
+  border-left: 1px solid var(--displayGreen);
+  border-right: 1px solid var(--displayGreen);
+}
+
+.displayLeft_crosshair_X {
+  border-top: 1px solid var(--displayGreen);
+  border-bottom: 2px solid var(--displayGreen);
+}
+
+.displayLeft_crosshair_target {
+  border: 1px solid var(--displayGreen);
+  background-color: var(--crosshairMiddle);
+}
+
+.boat,
+.cruiser,
+.submarine,
+.battleship,
+.carrier {
+  stroke: var(--displayGreen);
+  position: absolute;
+  stroke-width: 5px;
+  fill: var(--displayGreen);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.boat.red,
+.cruiser.red,
+.submarine.red,
+.battleship.red,
+.carrier.red {
+  stroke: var(--displayRed);
+  fill: var(--displayRed);
+}
+
+.boat.horizontal {
+  transform: rotate(-90deg) translateY(-50%);
+  transform-origin: top right;
+}
+
+.submarine.horizontal, .cruiser.horizontal {
+  transform: rotate(-90deg) translateY(-32%);
+  transform-origin: top right;
+}
+
+.battleship.horizontal {
+  transform: rotate(-90deg) translateY(-23%);
+  transform-origin: top right;
+}
+
+.carrier.horizontal {
+  transform: rotate(-90deg) translateY(-18%);
+  transform-origin: top right;
+}
+
+.red {
+  fill: var(--displayRed);
+}
+
+.mark {
+  pointer-events: none;
+  fill: var(--displayGreen);
+  z-index: 3;
+}
+
+.dot {
+  width: 25%;
+}
+.dot.miss {
+  fill: transparent;
+  stroke-width: 3px;
+}
+
+.dot.red {
+  fill: var(--displayRed)
+}
+.dot.miss.red {
+  stroke: var(--displayRed);
+  fill: transparent;
+  stroke-width: 3px;
+}
+
+.dot.miss.green {
+  stroke: var(--displayGreen)
+}
+
+.bang {
+  stroke: var(--displayRed);
+  width: 50%;
+  stroke-width: 0.5px;
+}
+
+.boat.icon,
+.cruiser.icon,
+.submarine.icon,
+.battleship.icon,
+.carrier.icon {
+  position: absolute;
+  width: calc((16.96vw/10)*2);
+  max-width: none;
+  z-index: 6;
+  pointer-events: all;
+}
+
+.boat.icon {
+  height: calc((16.96vw/10)*4 - 1vw);
+  margin-left: 1.3vw;
+}
+
+.cruiser.icon, .submarine.icon {
+  height: calc((16.96vw/10)*6 - 1vw);
+  margin-left: 2vw;
+}
+
+.battleship.icon {
+  height: calc((16.96vw/10)*8 - 1vw);
+  margin-left: 2vw;
+}
+
+.carrier.icon {
+  height: calc((16.96vw/10)*10 - 1vw);
+  margin-left: 2vw;
+}
+
+.selected {
+  stroke: white;
+  fill: white;
+}
+
+.placed {
+  stroke: gray;
+  fill: gray;
+}

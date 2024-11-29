@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 540 540">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_163-4);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#_Безымянный_градиент_163-2);
+      }
+
+      .cls-3 {
+        fill: #05f2ff;
+      }
+
+      .cls-4 {
+        fill: url(#_Безымянный_градиент_163-3);
+      }
+
+      .cls-5 {
+        fill: url(#_Безымянный_градиент_220);
+      }
+
+      .cls-6 {
+        fill: url(#_Безымянный_градиент_153-3);
+      }
+
+      .cls-8 {
+        fill: url(#_Безымянный_градиент_18);
+      }
+
+      .cls-9 {
+        fill: url(#_Безымянный_градиент_153);
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        fill: url(#_Безымянный_градиент_153-2);
+      }
+
+      .cls-11 {
+        fill: url(#_Безымянный_градиент_163);
+      }
+
+      .cls-16 {
+        font-size: 23.78px;
+      }
+
+      .cls-16, .cls-17 {
+        font-family: BlackOpsOne-Regular, 'Black Ops One';
+      }
+
+      .cls-12 {
+        fill: url(#_Безымянный_градиент_17);
+      }
+
+      .cls-13 {
+        fill: #ff3615;
+      }
+
+      .cls-17 {
+        font-size: 24.66px;
+      }
+
+      .cls-14 {
+        fill: url(#_Безымянный_градиент_153-4);
+      }
+
+      .cls-18 {
+        letter-spacing: -.06em;
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_220" data-name="Безымянный градиент 220" x1="530" y1="170" x2="0" y2="-360" gradientTransform="translate(0 170) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#849eae"/>
+      <stop offset=".35" stop-color="#7c94a4"/>
+      <stop offset=".95" stop-color="#687989"/>
+      <stop offset="1" stop-color="#667787"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_17" data-name="Безымянный градиент 17" x1="530.02" y1="270" x2="540.02" y2="270" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333342"/>
+      <stop offset=".14" stop-color="#40404b"/>
+      <stop offset=".44" stop-color="#55555a"/>
+      <stop offset=".73" stop-color="#626263"/>
+      <stop offset="1" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_18" data-name="Безымянный градиент 18" x1="270" y1="530" x2="270" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d5160"/>
+      <stop offset=".01" stop-color="#4b4e5d"/>
+      <stop offset=".13" stop-color="#3d3f4c"/>
+      <stop offset=".26" stop-color="#343541"/>
+      <stop offset=".46" stop-color="#2e2f3a"/>
+      <stop offset="1" stop-color="#2d2d38"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_153" data-name="Безымянный градиент 153" x1="18.22" y1="10.56" x2="20.78" y2="26.44" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="gray"/>
+      <stop offset=".1" stop-color="#8e8e8e"/>
+      <stop offset=".2" stop-color="#9f9f9f"/>
+      <stop offset=".33" stop-color="#aaa"/>
+      <stop offset=".51" stop-color="#b1b1b1"/>
+      <stop offset="1" stop-color="#b3b3b3"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_163" data-name="Безымянный градиент 163" x1="16.11" y1="10.43" x2="23.47" y2="27.95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".24" stop-color="#fdfdfd"/>
+      <stop offset=".38" stop-color="#f5f5f5"/>
+      <stop offset=".48" stop-color="#e7e7e7"/>
+      <stop offset=".57" stop-color="#d4d4d4"/>
+      <stop offset=".6" stop-color="#ccc"/>
+      <stop offset=".67" stop-color="#b9b9b9"/>
+      <stop offset=".8" stop-color="#9a9a9a"/>
+      <stop offset=".92" stop-color="#878787"/>
+      <stop offset=".99" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_153-2" data-name="Безымянный градиент 153" y1="503.56" x2="20.78" y2="519.44" xlink:href="#_Безымянный_градиент_153"/>
+    <linearGradient id="_Безымянный_градиент_163-2" data-name="Безымянный градиент 163" y1="503.43" x2="23.47" y2="520.95" xlink:href="#_Безымянный_градиент_163"/>
+    <linearGradient id="_Безымянный_градиент_153-3" data-name="Безымянный градиент 153" x1="511.22" y1="503.56" x2="513.78" y2="519.44" xlink:href="#_Безымянный_градиент_153"/>
+    <linearGradient id="_Безымянный_градиент_163-3" data-name="Безымянный градиент 163" x1="509.11" y1="503.43" x2="516.47" y2="520.95" xlink:href="#_Безымянный_градиент_163"/>
+    <linearGradient id="_Безымянный_градиент_153-4" data-name="Безымянный градиент 153" x1="511.22" y1="10.56" x2="513.78" y2="26.44" xlink:href="#_Безымянный_градиент_153"/>
+    <linearGradient id="_Безымянный_градиент_163-4" data-name="Безымянный градиент 163" x1="509.11" y1="10.43" x2="516.47" y2="27.95" xlink:href="#_Безымянный_градиент_163"/>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g id="Game_Board" data-name="Game Board">
+      <g id="Right_Board" data-name="Right Board">
+        <g id="Frame">
+          <path class="cls-5" d="m0,0v530h530V0H0Zm495,495H35V35h460v460Z"/>
+          <path class="cls-12" d="m540,540c-3.33-3.33-6.67-6.67-10-10V0c3.33,3.33,6.67,6.67,10,10v530Z"/>
+          <path class="cls-8" d="m9.63,540h530.37c-3.33-3.33-6.67-6.67-10-10H0c3.21,3.33,6.42,6.67,9.63,10Z"/>
+          <g id="Screw">
+            <circle class="cls-9" cx="19.5" cy="18.5" r="8.04"/>
+            <circle class="cls-11" cx="19.5" cy="18.5" r="9.5"/>
+            <rect class="cls-7" x="12.92" y="17.77" width="13.15" height="1.46" transform="translate(-5.73 9.22) rotate(-23.29)"/>
+          </g>
+          <g id="Screw-2" data-name="Screw">
+            <circle class="cls-10" cx="19.5" cy="511.5" r="8.04"/>
+            <circle class="cls-2" cx="19.5" cy="511.5" r="9.5"/>
+            <rect class="cls-7" x="12.92" y="510.77" width="13.15" height="1.46" transform="translate(-35.87 2.63) rotate(-4.03)"/>
+          </g>
+          <g id="Screw-3" data-name="Screw">
+            <circle class="cls-6" cx="512.5" cy="511.5" r="8.04"/>
+            <circle class="cls-4" cx="512.5" cy="511.5" r="9.5"/>
+            <rect class="cls-7" x="505.92" y="510.77" width="13.15" height="1.46" transform="translate(-202.53 397.4) rotate(-35.88)"/>
+          </g>
+          <g id="Screw-4" data-name="Screw">
+            <circle class="cls-14" cx="512.5" cy="18.5" r="8.04"/>
+            <circle class="cls-1" cx="512.5" cy="18.5" r="9.5"/>
+            <rect class="cls-7" x="511.77" y="11.92" width="1.46" height="13.15" transform="translate(18 154.4) rotate(-17.43)"/>
+          </g>
+          <g id="_Слой_13_копия_" data-name="Слой 13 (копия)">
+            <g id="_Слой_10_копия_" data-name="Слой 10 (копия)">
+              <text class="cls-16" transform="translate(51 23.59) scale(1.03 1)"><tspan x="0" y="0">1</tspan></text>
+              <text class="cls-16" transform="translate(97 23.59) scale(.82 1)"><tspan x="0" y="0">2</tspan></text>
+              <text class="cls-16" transform="translate(143 23.59) scale(.82 1)"><tspan x="0" y="0">3</tspan></text>
+              <text class="cls-16" transform="translate(189 23.59) scale(.82 1)"><tspan x="0" y="0">4</tspan></text>
+              <text class="cls-16" transform="translate(235 23.59) scale(.82 1)"><tspan x="0" y="0">5</tspan></text>
+              <text class="cls-16" transform="translate(281 23.59) scale(.82 1)"><tspan x="0" y="0">6</tspan></text>
+              <text class="cls-16" transform="translate(327 23.59) scale(.82 1)"><tspan x="0" y="0">7</tspan></text>
+              <text class="cls-16" transform="translate(373 23.59) scale(.82 1)"><tspan x="0" y="0">8</tspan></text>
+              <text class="cls-16" transform="translate(419 23.59) scale(.82 1)"><tspan x="0" y="0">9</tspan></text>
+              <text class="cls-16" transform="translate(458 23.59) scale(.95 1)"><tspan class="cls-18" x="0" y="0">1</tspan><tspan class="cls-15" x="12.2" y="0">0</tspan></text>
+              <text class="cls-16" transform="translate(51 518.59) scale(1.03 1)"><tspan x="0" y="0">1</tspan></text>
+              <text class="cls-16" transform="translate(97 518.59) scale(.82 1)"><tspan x="0" y="0">2</tspan></text>
+              <text class="cls-16" transform="translate(143 518.59) scale(.82 1)"><tspan x="0" y="0">3</tspan></text>
+              <text class="cls-16" transform="translate(189 518.59) scale(.82 1)"><tspan x="0" y="0">4</tspan></text>
+              <text class="cls-16" transform="translate(235 518.59) scale(.82 1)"><tspan x="0" y="0">5</tspan></text>
+              <text class="cls-16" transform="translate(281 518.59) scale(.82 1)"><tspan x="0" y="0">6</tspan></text>
+              <text class="cls-16" transform="translate(327 518.59) scale(.82 1)"><tspan x="0" y="0">7</tspan></text>
+              <text class="cls-16" transform="translate(373 518.59) scale(.82 1)"><tspan x="0" y="0">8</tspan></text>
+              <text class="cls-16" transform="translate(419 518.59) scale(.82 1)"><tspan x="0" y="0">9</tspan></text>
+              <text class="cls-16" transform="translate(458 518.59) scale(.95 1)"><tspan class="cls-18" x="0" y="0">1</tspan><tspan class="cls-15" x="12.2" y="0">0</tspan></text>
+            </g>
+            <g id="_Слой_11_копия_" data-name="Слой 11 (копия)">
+              <text class="cls-17" transform="translate(10 64.32) scale(.83 1)"><tspan x="0" y="0">A</tspan></text>
+              <text class="cls-17" transform="translate(10 110.32) scale(.83 1)"><tspan x="0" y="0">B</tspan></text>
+              <text class="cls-17" transform="translate(10 156.32) scale(.83 1)"><tspan x="0" y="0">C</tspan></text>
+              <text class="cls-17" transform="translate(10 202.32) scale(.83 1)"><tspan x="0" y="0">D</tspan></text>
+              <text class="cls-17" transform="translate(10 248.32) scale(.83 1)"><tspan x="0" y="0">E</tspan></text>
+              <text class="cls-17" transform="translate(10 294.32) scale(.83 1)"><tspan x="0" y="0">F</tspan></text>
+              <text class="cls-17" transform="translate(10 340.32) scale(.83 1)"><tspan x="0" y="0">G</tspan></text>
+              <text class="cls-17" transform="translate(10 386.32) scale(.83 1)"><tspan x="0" y="0">H</tspan></text>
+              <text class="cls-17" transform="translate(12 432.32) scale(1.01 1)"><tspan x="0" y="0">I</tspan></text>
+              <text class="cls-17" transform="translate(10 478.32) scale(.83 1)"><tspan x="0" y="0">J</tspan></text>
+              <text class="cls-17" transform="translate(505 64.32) scale(.83 1)"><tspan x="0" y="0">A</tspan></text>
+              <text class="cls-17" transform="translate(505 110.32) scale(.83 1)"><tspan x="0" y="0">B</tspan></text>
+              <text class="cls-17" transform="translate(505 156.32) scale(.83 1)"><tspan x="0" y="0">C</tspan></text>
+              <text class="cls-17" transform="translate(505 202.32) scale(.83 1)"><tspan x="0" y="0">D</tspan></text>
+              <text class="cls-17" transform="translate(505 248.32) scale(.83 1)"><tspan x="0" y="0">E</tspan></text>
+              <text class="cls-17" transform="translate(505 294.32) scale(.83 1)"><tspan x="0" y="0">F</tspan></text>
+              <text class="cls-17" transform="translate(505 340.32) scale(.83 1)"><tspan x="0" y="0">G</tspan></text>
+              <text class="cls-17" transform="translate(505 386.32) scale(.83 1)"><tspan x="0" y="0">H</tspan></text>
+              <text class="cls-17" transform="translate(507 432.32) scale(1.01 1)"><tspan x="0" y="0">I</tspan></text>
+              <text class="cls-17" transform="translate(505 478.32) scale(.83 1)"><tspan x="0" y="0">J</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="Grid">
+          <rect class="cls-13" x="449" y="449" width="46" height="46"/>
+          <rect class="cls-3" x="403" y="449" width="46" height="46"/>
+          <rect class="cls-13" x="357" y="449" width="46" height="46"/>
+          <rect class="cls-13" x="265" y="449" width="46" height="46"/>
+          <rect class="cls-13" x="35" y="35" width="46" height="46"/>
+          <rect class="cls-3" x="81" y="35" width="46" height="46"/>
+          <rect class="cls-13" x="127" y="35" width="46" height="46"/>
+          <rect class="cls-3" x="173" y="35" width="46" height="46"/>
+          <rect class="cls-13" x="219" y="35" width="46" height="46"/>
+          <rect class="cls-3" x="265" y="35" width="46" height="46"/>
+          <rect class="cls-13" x="311" y="35" width="46" height="46"/>
+          <rect class="cls-3" x="357" y="35" width="46" height="46"/>
+          <rect class="cls-13" x="403" y="35" width="46" height="46"/>
+          <rect class="cls-3" x="449" y="35" width="46" height="46"/>
+          <rect class="cls-3" x="35" y="81" width="46" height="46"/>
+          <rect class="cls-13" x="81" y="81" width="46" height="46"/>
+          <rect class="cls-3" x="127" y="81" width="46" height="46"/>
+          <rect class="cls-13" x="173" y="81" width="46" height="46"/>
+          <rect class="cls-3" x="219" y="81" width="46" height="46"/>
+          <rect class="cls-13" x="265" y="81" width="46" height="46"/>
+          <rect class="cls-3" x="311" y="81" width="46" height="46"/>
+          <rect class="cls-13" x="357" y="81" width="46" height="46"/>
+          <rect class="cls-3" x="403" y="81" width="46" height="46"/>
+          <rect class="cls-13" x="449" y="81" width="46" height="46"/>
+          <rect class="cls-13" x="35" y="127" width="46" height="46"/>
+          <rect class="cls-3" x="81" y="127" width="46" height="46"/>
+          <rect class="cls-13" x="127" y="127" width="46" height="46"/>
+          <rect class="cls-3" x="173" y="127" width="46" height="46"/>
+          <rect class="cls-13" x="219" y="127" width="46" height="46"/>
+          <rect class="cls-3" x="265" y="127" width="46" height="46"/>
+          <rect class="cls-13" x="311" y="127" width="46" height="46"/>
+          <rect class="cls-3" x="357" y="127" width="46" height="46"/>
+          <rect class="cls-13" x="403" y="127" width="46" height="46"/>
+          <rect class="cls-3" x="449" y="127" width="46" height="46"/>
+          <rect class="cls-3" x="35" y="173" width="46" height="46"/>
+          <rect class="cls-13" x="81" y="173" width="46" height="46"/>
+          <rect class="cls-3" x="127" y="173" width="46" height="46"/>
+          <rect class="cls-13" x="173" y="173" width="46" height="46"/>
+          <rect class="cls-3" x="219" y="173" width="46" height="46"/>
+          <rect class="cls-13" x="265" y="173" width="46" height="46"/>
+          <rect class="cls-3" x="311" y="173" width="46" height="46"/>
+          <rect class="cls-13" x="357" y="173" width="46" height="46"/>
+          <rect class="cls-3" x="403" y="173" width="46" height="46"/>
+          <rect class="cls-13" x="449" y="173" width="46" height="46"/>
+          <rect class="cls-13" x="35" y="219" width="46" height="46"/>
+          <rect class="cls-3" x="81" y="219" width="46" height="46"/>
+          <rect class="cls-13" x="127" y="219" width="46" height="46"/>
+          <rect class="cls-3" x="173" y="219" width="46" height="46"/>
+          <rect class="cls-13" x="219" y="219" width="46" height="46"/>
+          <rect class="cls-3" x="265" y="219" width="46" height="46"/>
+          <rect class="cls-13" x="311" y="219" width="46" height="46"/>
+          <rect class="cls-3" x="357" y="219" width="46" height="46"/>
+          <rect class="cls-13" x="403" y="219" width="46" height="46"/>
+          <rect class="cls-3" x="449" y="219" width="46" height="46"/>
+          <rect class="cls-3" x="35" y="265" width="46" height="46"/>
+          <rect class="cls-13" x="81" y="265" width="46" height="46"/>
+          <rect class="cls-3" x="127" y="265" width="46" height="46"/>
+          <rect class="cls-13" x="173" y="265" width="46" height="46"/>
+          <rect class="cls-3" x="219" y="265" width="46" height="46"/>
+          <rect class="cls-13" x="265" y="265" width="46" height="46"/>
+          <rect class="cls-3" x="311" y="265" width="46" height="46"/>
+          <rect class="cls-13" x="357" y="265" width="46" height="46"/>
+          <rect class="cls-3" x="403" y="265" width="46" height="46"/>
+          <rect class="cls-13" x="449" y="265" width="46" height="46"/>
+          <rect class="cls-13" x="35" y="311" width="46" height="46"/>
+          <rect class="cls-3" x="81" y="311" width="46" height="46"/>
+          <rect class="cls-13" x="127" y="311" width="46" height="46"/>
+          <rect class="cls-3" x="173" y="311" width="46" height="46"/>
+          <rect class="cls-13" x="219" y="311" width="46" height="46"/>
+          <rect class="cls-3" x="265" y="311" width="46" height="46"/>
+          <rect class="cls-13" x="311" y="311" width="46" height="46"/>
+          <rect class="cls-3" x="357" y="311" width="46" height="46"/>
+          <rect class="cls-13" x="403" y="311" width="46" height="46"/>
+          <rect class="cls-3" x="449" y="311" width="46" height="46"/>
+          <rect class="cls-3" x="35" y="357" width="46" height="46"/>
+          <rect class="cls-13" x="81" y="357" width="46" height="46"/>
+          <rect class="cls-3" x="127" y="357" width="46" height="46"/>
+          <rect class="cls-13" x="173" y="357" width="46" height="46"/>
+          <rect class="cls-3" x="219" y="357" width="46" height="46"/>
+          <rect class="cls-13" x="265" y="357" width="46" height="46"/>
+          <rect class="cls-3" x="311" y="357" width="46" height="46"/>
+          <rect class="cls-13" x="357" y="357" width="46" height="46"/>
+          <rect class="cls-3" x="403" y="357" width="46" height="46"/>
+          <rect class="cls-13" x="449" y="357" width="46" height="46"/>
+          <rect class="cls-13" x="35" y="403" width="46" height="46"/>
+          <rect class="cls-3" x="81" y="403" width="46" height="46"/>
+          <rect class="cls-13" x="127" y="403" width="46" height="46"/>
+          <rect class="cls-3" x="173" y="403" width="46" height="46"/>
+          <rect class="cls-13" x="219" y="403" width="46" height="46"/>
+          <rect class="cls-3" x="265" y="403" width="46" height="46"/>
+          <rect class="cls-13" x="311" y="403" width="46" height="46"/>
+          <rect class="cls-3" x="357" y="403" width="46" height="46"/>
+          <rect class="cls-13" x="403" y="403" width="46" height="46"/>
+          <rect class="cls-3" x="449" y="403" width="46" height="46"/>
+          <rect class="cls-3" x="35" y="449" width="46" height="46"/>
+          <rect class="cls-13" x="81" y="449" width="46" height="46"/>
+          <rect class="cls-3" x="127" y="449" width="46" height="46"/>
+          <rect class="cls-13" x="173" y="449" width="46" height="46"/>
+          <rect class="cls-3" x="219" y="449" width="46" height="46"/>
+          <rect class="cls-3" x="311" y="449" width="46" height="46"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

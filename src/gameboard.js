@@ -6,26 +6,38 @@ export class Gameboard {
     for (let y = 0; y < 10; y++) {
       let row = [];
       for (let x = 0; x < 10; x++) {
-        row.push(null);
+        row.push({ship: null, isHit: false});
       }
       this.board.push(row);
     }
     this.fleet = [];
   }
 
-  placeShip(shipSize, coordinates) {
+  placeShip(type, coordinates) {
     if(!this.isValidShipPlacement(coordinates)) return
-    let ship = new Ship(shipSize);
-    coordinates.forEach((coord) => {
-      this.board[coord[0]][coord[1]] = ship;
-    });
+    let ship = new Ship(type);
+    
+    ship.anchor = coordinates[0];
+    coordinates[0][0] === coordinates[1][0]
+      ? ship.orientation = "horizontal"
+      : ship.orientation = "vertical";
     this.fleet.push(ship);
+
+    coordinates.forEach((coord) => {
+      this.board[coord[0]][coord[1]].ship = ship;
+    });
+
+    ship.cells = coordinates;
   }
 
   receiveAttack(coordinates) {
     const target = this.board[coordinates[0]][coordinates[1]];
-    if (target === null) this.board[coordinates[0]][coordinates[1]] = 0;
-    else this.board[coordinates[0]][coordinates[1]].hit();
+
+    if (target.isHit) throw new Error("This cell has been already shot")
+    else {
+      target.isHit = true;
+      if(target.ship) target.ship.hit();
+    }
   }
 
   isFleetSunk() {
@@ -141,11 +153,11 @@ export class Gameboard {
     coordinates.forEach(set => {
       let cellsAround = this._getCellsAroundTarget(set);
       cellsAround.forEach(cell => {
-        if (this.board[cell[0]][cell[1]] !== null) {
+        if (this.board[cell[0]][cell[1]].ship) {
           isValidPlacement = false;
         }
       })
     })
-    return isValidPlacement;
+  return isValidPlacement;
   }
 }
