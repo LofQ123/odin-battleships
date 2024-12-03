@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=VT323&display=swap');
 
 :root {
   --displayGreen: rgba(60, 255, 0, 0.555);
   --displayRed: rgb(255, 0, 0);
   --displayBlack: rgb(14, 13, 13);
+  --displayGray: rgb(80, 80, 80);
   --crosshairMiddle: rgba(54, 187, 27, 0.164);
   --frameColor1: rgba(12, 12, 12, 0.904);
   --displayColor1: rgb(5, 22, 3);
@@ -62,11 +64,16 @@
   background-color: var(--crosshairMiddle);
 }
 
+div.displayLeft_cell.area {
+  background-color: rgb(146, 10, 10);
+}
+
 .boat,
 .cruiser,
 .submarine,
 .battleship,
-.carrier {
+.carrier,
+.mine {
   stroke: var(--displayGreen);
   position: absolute;
   stroke-width: 5px;
@@ -79,9 +86,16 @@
 .cruiser.red,
 .submarine.red,
 .battleship.red,
-.carrier.red {
+.carrier.red,
+.mine.red {
   stroke: var(--displayRed);
   fill: var(--displayRed);
+}
+
+.mine {
+  height: 80%;
+  width: 80%;
+  align-self: center;
 }
 
 .boat.horizontal {
@@ -182,3 +196,4 @@
   stroke: gray;
   fill: gray;
 }
+

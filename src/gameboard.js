@@ -1,5 +1,4 @@
 import { Ship } from "./ship";
-
 export class Gameboard {
   constructor() {
     this.board = [];
@@ -11,32 +10,57 @@ export class Gameboard {
       this.board.push(row);
     }
     this.fleet = [];
+    this.abilities = {
+      counter: 0,
+      abilityPoints: 0,
+      allowMine: false,
+      allowTorpedo: false,
+      allowDouble: false,
+      allowBomb: false,
+      extraTurn: false,
+    }
   }
 
-  placeShip(type, coordinates) {
-    if(!this.isValidShipPlacement(coordinates)) return
-    let ship = new Ship(type);
-    
-    ship.anchor = coordinates[0];
-    coordinates[0][0] === coordinates[1][0]
-      ? ship.orientation = "horizontal"
-      : ship.orientation = "vertical";
-    this.fleet.push(ship);
+  placeShip(type, coordinates, options = {}) {
+    if(!options.mine) {
+      let ship = new Ship(type);
+      ship.anchor = coordinates[0];
+      coordinates[0][0] === coordinates[1][0]
+       ? ship.orientation = "horizontal"
+       : ship.orientation = "vertical";
+      this.fleet.push(ship);
 
-    coordinates.forEach((coord) => {
-      this.board[coord[0]][coord[1]].ship = ship;
-    });
+      coordinates.forEach((coord) => {
+       this.board[coord[0]][coord[1]].ship = ship;
+      });
 
-    ship.cells = coordinates;
+      ship.cells = coordinates;
+
+      if (type === "3a") this.abilities.allowMine = true;
+      else if (type === "3b") this.abilities.allowTorpedo = true;
+      else if (type === "4") this.abilities.allowDouble = true;
+      else if (type === "5") this.abilities.allowBomb = true;
+    } else {
+      this.board[coordinates[0]][coordinates[1]].ship = options.mine;
+      this.mine = options.mine
+    }  
   }
 
   receiveAttack(coordinates) {
     const target = this.board[coordinates[0]][coordinates[1]];
 
-    if (target.isHit) throw new Error("This cell has been already shot")
-    else {
+    if (!target.isHit) {
       target.isHit = true;
-      if(target.ship) target.ship.hit();
+
+      if (target.ship && target.ship.type !== "mine") {
+        target.ship.hit();
+        if (target.ship.sunk) {
+          if (target.ship.code === "3a") this.abilities.allowMine = false;
+          else if (target.ship.code === "3b") this.abilities.allowTorpedo = false;
+          else if (target.ship.code === "4") this.abilities.allowDouble = false;
+          else if (target.ship.code === "5") this.abilities.allowBomb = false;
+        } 
+      } 
     }
   }
 
@@ -148,16 +172,28 @@ export class Gameboard {
     return cellsAround
   }
 
-  isValidShipPlacement(coordinates) {
+  isValidShipPlacement(coordinates, options = { mine: false }) {
     let isValidPlacement = true;
-    coordinates.forEach(set => {
-      let cellsAround = this._getCellsAroundTarget(set);
-      cellsAround.forEach(cell => {
-        if (this.board[cell[0]][cell[1]].ship) {
-          isValidPlacement = false;
-        }
+
+    if (!options.mine) {
+      coordinates.forEach(set => {
+        let cellsAround = this._getCellsAroundTarget(set);
+        cellsAround.forEach(cell => {
+          if (this.board[cell[0]][cell[1]].ship) {
+            isValidPlacement = false;
+          }
+        })
       })
-    })
+    } else {
+      if (this.board[coordinates[0]][coordinates[1]].isHit || this.board[coordinates[0]][coordinates[1]].ship) isValidPlacement = false;
+    }
+    
   return isValidPlacement;
   }
-}
+
+  checkIfMine(coordinates) {
+    const target = this.board[coordinates[0]][coordinates[1]];
+    if (target.ship && target.ship.type === "mine" && !target.ship.sunk) return true
+    else return false;
+  }
+} 

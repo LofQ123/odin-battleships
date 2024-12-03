@@ -11,6 +11,16 @@ import svg_displayRight from "./svg/displayRight.svg";
 import svg_gameboard from "./svg/gameboard.svg";
 import svg_buttonGray from "./svg/buttonGray.svg";
 import svg_buttonYellow from "./svg/buttonYellow.svg";
+import svg_bomb from "./svg/icon_bomb.svg";
+import svg_bomb_gray from "./svg/icon_bomb_gray.svg";
+import svg_torpedo from "./svg/icon_torpedo.svg";
+import svg_torpedo_gray from "./svg/icon_torpedo_gray.svg";
+import svg_double from "./svg/icon_double.svg";
+import svg_double_gray from "./svg/icon_double_gray.svg";
+import svg_mine from "./svg/icon_mine.svg";
+import svg_mine_gray from "./svg/icon_mine_gray.svg";
+
+
 import { boat_svg } from "./assets/ship_boat";
 import { cruiser_svg } from "./assets/ship_cruiser";
 import { submarine_svg } from "./assets/ship_submarine";
@@ -18,6 +28,7 @@ import { battleship_svg } from "./assets/ship_battleship";
 import { carrier_svg } from "./assets/ship_carrier";
 import { dot_svg } from "./assets/marks";
 import { bang_svg } from "./assets/marks";
+import { mine_svg } from "./assets/mine";
 
 
 export const ui = {
@@ -41,6 +52,16 @@ export const ui = {
       buttonYellow: svg_buttonYellow,
     },
     gameboard: svg_gameboard,
+  },
+  icons: {
+    bomb: svg_bomb,
+    bomb_gray: svg_bomb_gray,
+    torpedo: svg_torpedo,
+    torpedo_gray: svg_torpedo_gray,
+    double: svg_double,
+    double_gray: svg_double_gray,
+    mine: svg_mine,
+    mine_gray: svg_mine_gray
   }
 }
 
@@ -50,6 +71,7 @@ export const ships = {
   submarine: submarine_svg,
   battleship: battleship_svg,
   carrier: carrier_svg,
+  mine: mine_svg
 }
 
 export const marks = {

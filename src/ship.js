@@ -6,6 +6,7 @@ export class Ship {
     this.code = type;
     this.cells = null;
 
+    if (type === "1") this.type = "mine";
     if (type === "2") this.type = "boat";
     if (type === "3a") this.type = "cruiser";
     if (type === "3b") this.type = "submarine";
@@ -22,3 +23,4 @@ export class Ship {
     if (this.timesHit === this.length) this.sunk = true;
   }
 }
+

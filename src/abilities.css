@@ -1,0 +1,120 @@
+.ability_top {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.ability_bottom {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.abilityIcon {
+  height: 80%;
+  margin-left: 0.4vw;
+  border: 2px solid var(--displayGray);
+  border-radius: 0.5vw;
+  z-index: 4;
+  pointer-events: all;
+}
+
+.ability.green>*>.abilityIcon {
+  border: 2px solid var(--displayGreen);
+}
+
+.ability.green>*>.abilityIcon:hover {
+  border-color: white;
+  cursor: pointer;
+}
+
+.abilityLabel {
+  height: auto;
+  align-self: last baseline;
+  width: 100%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: min(1.7vh, 2vw);
+  line-height: min(1.8vh, 2vw);
+  padding-left: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+
+.abilityShip {
+  stroke-width: 5px;
+  transform: rotate(-90deg) translateY(+5vw);
+  width: min(2vw, 10vh);
+}
+
+.ability>*>* {
+  color: var(--displayGray);
+  fill: var(--displayGray);
+  stroke: var(--displayGray);
+}
+
+.ability>* {
+  border-color: var(--displayGray);
+}
+
+.ability.green>*>* {
+  color: var(--displayGreen);
+  fill: var(--displayGreen);
+  stroke: var(--displayGreen);
+}
+
+.ability.green>* {
+  border-color: var(--displayGreen);
+}
+
+.abilityPopUp {
+  position: absolute;
+  width: 20vw;
+  height: auto;
+  background-color: var(--displayColor1);
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  border: 2px solid var(--displayGreen);
+  border-radius: 1vh;
+}
+
+.abilityPopUp_header, .abilityPopUp_description {
+  color: var(--displayGreen);
+  padding: 0.7vh 0.7vw;
+}
+
+.abilityPopUp_header {
+  font-weight: 800;
+  font-size: 2.3vh;
+  border-bottom: 1px solid var(--displayGreen);
+}
+
+.abilityPopUp_description {
+  font-weight: 400;
+  font-size: 1.5vh;
+}
+
+.ability.green>*>.abilityAbortBtn {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-size: 3vh;
+  border: 2px solid red;
+  border-radius: 0.7vh;
+  padding: 0.5vh 0.5vw;
+  margin-left: 0.5vw;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.ability.green>*>.abilityAbortBtn:hover {
+  border-color: white;
+}

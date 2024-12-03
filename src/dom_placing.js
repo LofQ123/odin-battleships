@@ -273,7 +273,6 @@ export function placing_start() {
 export function placing_finish() {
   shipToPlace.removeIcons();
   placing_removeEventListeners(); 
-  //Remove Event Listeners
 }
 
 function placing_handleClick(e) {
@@ -282,6 +281,10 @@ function placing_handleClick(e) {
   let type = player1.gameboard.board[cellY][cellX].ship.type;
 
   shipToPlace.reselect(type);
+};
+
+function placing_handleKeyPress(e) {
+  if (e.key === "r" || e.key === "к") shipToPlace.rotate();
 }
 
 async function placing_refreshTargetCell(e) {
@@ -340,6 +343,8 @@ function placing_addEventListeners() {
     let icon = icons[ship];
     icon.addEventListener("click", shipToPlace.select)
   };
+
+  document.addEventListener("keypress", placing_handleKeyPress);
 }
 
 function placing_removeEventListeners() {
@@ -351,3 +356,4 @@ function placing_removeEventListeners() {
     cell.removeEventListener("click", shipToPlace.place)
   };
 }
+

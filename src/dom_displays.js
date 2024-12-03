@@ -2,7 +2,6 @@ import { containers } from "./dom";
 
 export async function drawGrid(display) {
   buildGrid(display)
-  animateGrid(display)
 }
 
 function buildGrid(display) {
@@ -55,7 +54,7 @@ function displayCrosshair(event) {
   })
 }
 
-function animateGrid(display) {
+export function animateGrid(display) {
   const cells = [];
   for(let y = 0; y < 10; y++) {
     const row = [];
@@ -72,8 +71,8 @@ function animateGrid(display) {
   let time = 20;
   let timeout;
   display === "left"
-    ? timeout = time*50
-    : timeout = time* 140
+    ? timeout = time*300
+    : timeout = time*500
 
   const interval = setInterval(() => {
     let currentIndex = 0;

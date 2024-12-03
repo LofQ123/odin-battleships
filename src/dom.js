@@ -1,7 +1,15 @@
-import { drawGrid } from "./dom_displays";
+import { drawGrid, animateGrid } from "./dom_displays";
 import { ui, ships, marks } from "./images";
 import { Player } from "./player";
 import { shipToPlace, placing_start, placing_finish } from "./dom_placing";
+import { generateFleet } from "./ai";
+import { battle_start } from "./dom_battle"
+import { drawAbilities, refreshAbilityState, createPopUp } from "./dom_abilities";
+
+export let player1 = new Player ("Bob", "human")
+export let player2 = new Player ("AI", "ai");
+export let displayedBoard = player2;
+export let language = "eng";
 
 export const containers = {
   background: document.getElementById("container_background"),
@@ -32,24 +40,32 @@ export const containers = {
       }
     },
   },
+  abilities: {
+    left: {},
+  }
 }
 
-function readyImg(src, id) {
+export function readyImg(src, id, classes = null) {
   let element = document.createElement("img");
   element.src = src;
   element.id = id;
   element.draggable = "false";
+  if (classes) element.classList.add(...classes);
 
   let pointerEventsIgnoreList = [
     "buttonAllies",
-    "buttonEnemies"
+    "buttonEnemies",
+    "left_mine_icon",
+    "left_torpedo_icon",
+    "left_double_icon",
+    "left_bomb_icon"
   ]
 
   if (!pointerEventsIgnoreList.includes(id)) element.style.pointerEvents = "none";
   return element
 }
 
-function placeSVG(element, svgString, options = {}) {
+export function placeSVG(element, svgString, options = { id: null, classes: null }) {
   let parser = new DOMParser();
   let parsed = parser.parseFromString(svgString, 'image/svg+xml');
   let svg = parsed.documentElement
@@ -83,6 +99,7 @@ function drawElements_gameScreen() {
 export async function displayPlayerBoard(display) {
   await clearDisplay(display);
 
+  //Draw ships
   let playerFleet = player1.gameboard.fleet;
   for (let ship of playerFleet) {
     !ship.sunk
@@ -90,6 +107,7 @@ export async function displayPlayerBoard(display) {
       : drawShip(ship, display, { classes: ["red"], id: `P1-${ship.type}` });
   }
 
+  //Draw shots and mines
   let playerBoard = player1.gameboard.board;
 
   for (let y = 0; y < 10; y++) {
@@ -99,7 +117,7 @@ export async function displayPlayerBoard(display) {
       display === "left"
         ? cellElement = document.getElementById(`dL-[${y},${x}]`)
         : cellElement = document.getElementById(`dR-[${y},${x}]`);
-
+      //Draw shots
       if (cell.isHit) {
         let svgString; marks.dot;
         let classList = ["mark"];
@@ -112,6 +130,12 @@ export async function displayPlayerBoard(display) {
         }
 
         placeSVG(cellElement, svgString, { classes: classList })
+      }
+      //Draw mines
+      if (cell.ship && cell.ship.type === "mine") {
+        !cell.ship.sunk
+          ? drawShip(cell.ship, display, { mine: true, classes: [] })
+          : drawShip(cell.ship, display, { classes: ["red"], mine: true });
       }
     }
   }
@@ -138,6 +162,9 @@ export async function displayEnemyBoard() {
         if (cell.ship) {
           svgString = marks.bang;
           classList.push("hit", "red", "bang")
+          if (cell.ship.type === "mine") {
+            drawShip(cell.ship, "left", { classes: ["red"], mine: true });
+          }
         } else {
           svgString = marks.dot;
           classList.push("miss", "green", "dot");
@@ -149,7 +176,7 @@ export async function displayEnemyBoard() {
   }
 }
 
-async function clearDisplay(display) {
+export async function clearDisplay(display) {
   return new Promise((resolve) => {
     let board;
     display === "left"
@@ -163,7 +190,9 @@ async function clearDisplay(display) {
 
 export async function drawShip(ship, display, options = {}) {
   let svgString = ships[`${ship.type}`];
-  let classList = [`${ship.type}`, `${ship.orientation}`];
+  let classList;
+  if (!options.mine) classList = [`${ship.type}`, `${ship.orientation}`];
+  else classList = ["mine"]
   if (options.classes) options.classes.forEach(cls => classList.push(cls));
   
   let targetCellString;
@@ -195,43 +224,27 @@ export async function toggleDisplay(e) {
   }
 }
 
-export async function player1Shoots(coordinates) {
-  player2.gameboard.receiveAttack(coordinates);
-  await clearDisplay()
-  displayEnemyBoard();
-}
 
-export async function player2Shoots(coordinates) {
-  player1.gameboard.receiveAttack(coordinates);
-  await clearDisplay("right")
-  await displayPlayerBoard("right");
-  
-  if (displayedBoard === player1) {
-    await clearDisplay("left");
-    await displayPlayerBoard("left");
-  }
-}
-
-
-
-
-export let player1 = new Player ("Bob", "human")
-
-export let player2 = new Player ("AI", "ai");
-
-let displayedBoard = player2;
 
 draw_gameScreen();
-await displayEnemyBoard();
+document.getElementById("buttonEnemies").addEventListener("click", toggleDisplay);
+document.getElementById("buttonAllies").addEventListener("click", toggleDisplay);
+
+
+animateGrid("left");
+animateGrid("right");
+generateFleet("player1")
+generateFleet("player2")
 await displayPlayerBoard("right");
 await displayPlayerBoard("left");
 await displayEnemyBoard()
-document.getElementById("buttonEnemies").addEventListener("click", toggleDisplay);
-document.getElementById("buttonAllies").addEventListener("click", toggleDisplay);
-document.addEventListener("keypress", async (e) => {
-  if(e.key === "r" || e.key === "к") shipToPlace.rotate();
-})
+
+drawAbilities("left")
+drawAbilities("right")
+refreshAbilityState(player1);
+refreshAbilityState(player2);
+battle_start();
 
 
-placing_start();
-placing_finish();
+
+

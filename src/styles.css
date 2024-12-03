@@ -22,6 +22,9 @@ body {
 #container_sidebarLeft, #container_sidebarRight {
   height: 93vh;
   width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #container_center {
@@ -30,8 +33,10 @@ body {
 }
 
 #container_centerTop {
-  outline: 1px solid red;
   height: 22vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #container_centerMiddle {
@@ -102,7 +107,7 @@ body {
   height: 93vh;
   width: 21vw;
   bottom: 0;
-  z-index: 2;
+  z-index: -1;
 }
 
 #sidebarLeft {
@@ -176,4 +181,92 @@ body {
   margin-bottom: -19.35vw;
   cursor: pointer;
   pointer-events: all;
+}
+
+.ability {
+  position: absolute;
+  height: 13.5vh;
+  width: 12.5vw;
+  border: 3px solid black;
+  border-radius: 1vh;
+  background-color: var(--displayColor1);
+  box-shadow: 0px 0px 18px 8px rgba(70, 121, 76, 0.493) inset;
+  display: none;
+}
+
+#left_ability_mine, 
+#left_ability_torpedo, 
+#left_ability_double, 
+#left_ability_bomb {
+  left: 5.8vw;
+}
+
+#right_ability_mine, 
+#right_ability_torpedo, 
+#right_ability_double, 
+#right_ability_bomb {
+  right: 5.8vw;
+}
+
+#left_ability_mine, #right_ability_mine {
+  top: 9vh;
+}
+
+#left_ability_torpedo, #right_ability_torpedo {
+  top: 25.4vh;
+}
+
+#left_ability_double, #right_ability_double {
+  top: 41.6vh;
+}
+
+#left_ability_bomb, #right_ability_bomb {
+  top: 57.9vh
+}
+
+#container_log {
+  height: 16vh;
+  width: 56vw;
+  z-index: 2;
+  margin: auto;
+  background-color: var(--displayColor1);
+  border: 2px solid black;
+  box-shadow: 0px 0px 18px 8px rgba(70, 121, 76, 0.493) inset;
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 1vw;
+  overflow-y: auto;
+  justify-content: baseline;
+}
+
+.logMsg {
+  color: var(--displayGreen);
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: min(1.4vh, 2vw);
+  line-height: min(1.4vh, 2vw);
+  padding-top: 1vh;
+  width: 100%;
+  height: auto;
+}
+
+.logPlayer1 {
+  color: white;
+}
+
+.logPlayer2 {
+  color: red;
+}
+
+.logSystem {
+  color: yellow;
+}
+
+::-webkit-scrollbar {
+  width: 0.8vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--displayGreen);
 }
