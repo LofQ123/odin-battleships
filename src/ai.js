@@ -50,11 +50,11 @@ function generatePosition(type) {
   return position;
 }
 
-export function placeShipAtGeneratedPosition(type, player = "player2") {
+export function placeShipAtGeneratedPosition(type, player = player2) {
   let position = generatePosition(type);
   let board;
 
-  player === "player2"
+  player === player2
     ? board = player2.gameboard
     : board = player1.gameboard;
 
@@ -65,7 +65,7 @@ export function placeShipAtGeneratedPosition(type, player = "player2") {
   }
 }
 
-export function generateFleet(player) {
+export function generateFleet(player) { 
   placeShipAtGeneratedPosition("5", player); 
   placeShipAtGeneratedPosition("4", player);
   placeShipAtGeneratedPosition("3b", player);

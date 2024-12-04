@@ -19,7 +19,12 @@ import svg_double from "./svg/icon_double.svg";
 import svg_double_gray from "./svg/icon_double_gray.svg";
 import svg_mine from "./svg/icon_mine.svg";
 import svg_mine_gray from "./svg/icon_mine_gray.svg";
-
+import svg_shipWhiteFill from "./svg/ship_white_fill.svg";
+import svg_shipRedFill from "./svg/ship_red_fill.svg";
+import svg_shipWhiteStroke from "./svg/ship_white_stroke.svg";
+import svg_shipRedStroke from "./svg/ship_red_stroke.svg";
+import svg_logo from "./svg/logo.svg";
+import svg_gitLogo from "./svg/gitLogo.svg"
 
 import { boat_svg } from "./assets/ship_boat";
 import { cruiser_svg } from "./assets/ship_cruiser";
@@ -29,6 +34,9 @@ import { carrier_svg } from "./assets/ship_carrier";
 import { dot_svg } from "./assets/marks";
 import { bang_svg } from "./assets/marks";
 import { mine_svg } from "./assets/mine";
+
+import cat_img from "./assets/avatar_cat.jpg";
+import dog_img from "./assets/avatar_dog.jpg";
 
 
 export const ui = {
@@ -62,7 +70,9 @@ export const ui = {
     double_gray: svg_double_gray,
     mine: svg_mine,
     mine_gray: svg_mine_gray
-  }
+  },
+  logo: svg_logo,
+  gitLogo: svg_gitLogo
 }
 
 export const ships = {
@@ -71,7 +81,13 @@ export const ships = {
   submarine: submarine_svg,
   battleship: battleship_svg,
   carrier: carrier_svg,
-  mine: mine_svg
+  mine: mine_svg,
+  icons: {
+    whiteF: svg_shipWhiteFill,
+    whiteS: svg_shipWhiteStroke,
+    redF: svg_shipRedFill,
+    redS: svg_shipRedStroke
+  }
 }
 
 export const marks = {
@@ -79,43 +95,7 @@ export const marks = {
   bang: bang_svg,
 }
 
-/* function _create(svg, tempID) {
-  return new Promise((resolve) => {
-    let temp = document.getElementById("temp");
-    let obj = document.createElement("object");
-    obj.setAttribute("data", svg);
-    obj.setAttribute("type", "image/svg+xml");
-    obj.style.width = "0px";
-    obj.style.height = "0px";
-    obj.id = `obj-${tempID}`;
-  
-    obj.addEventListener("load", function() {
-      let _obj = obj;
-      let _content = obj.contentDocument;
-      let _document = obj.contentDocument.documentElement;
-      let svg = obj.contentDocument.documentElement;
-      console.log(_obj);
-      console.log(_content);
-      console.log(_document);
-      svg.id = `svg-${tempID}`;
-
-      temp.appendChild(svg);
-      resolve(svg);
-    });
-  
-    temp.appendChild(obj);
-  });
+export const avatars = {
+  cat: cat_img,
+  dog: dog_img,
 }
-
-async function _append(svg, tempID) {
-  let el = await _create(svg, tempID);
-  let clone;
-  let tempObj = document.getElementById(`obj-${tempID}`)
-  let tempSVG = document.getElementById(`svg-${tempID}`);
-  clone = tempSVG.cloneNode(true);
-  clone.id = "";
-  let parent = tempSVG.parentElement;
-  parent.removeChild(tempSVG);
-  document.getElementById("temp").removeChild(tempObj)
-  return clone;
-} */

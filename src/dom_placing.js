@@ -1,5 +1,7 @@
 import { Ship } from "./ship";
-import { player1, drawShip, displayPlayerBoard } from "./dom";
+import { player1, drawShip, displayPlayerBoard, language, } from "./dom";
+import { logMessage } from "./dom_log";
+import { translation } from "./translation";
 
 let placing_lastMouseOverTime;
 
@@ -156,6 +158,8 @@ export let shipToPlace = {
       }
       shipToPlace.cancelSelect();
     }
+
+    checkIfReadyToStart();
   },
 
   drawIcons: () => {
@@ -264,7 +268,13 @@ export let shipToPlace = {
 };
 
 export function placing_start() {
-  // Need to make sure that display sets to Player 1
+  document.getElementById("buttonAllies").dispatchEvent(new Event("click"));
+  logMessage(translation[language].messages.placingStarts);
+  logMessage(translation[language].messages.placingTipSelectShip);
+  logMessage(translation[language].messages.placingTipPlaceShip);
+  logMessage(translation[language].messages.placingTipRotateShip);
+  logMessage(translation[language].messages.placingTipMoveShip);
+
 
   shipToPlace.drawIcons();
   placing_addEventListeners();
@@ -354,6 +364,17 @@ function placing_removeEventListeners() {
   for (let cell of cells) {
     cell.removeEventListener("mouseover", placing_handleMouseOver)
     cell.removeEventListener("click", shipToPlace.place)
+    cell.removeEventListener("click", placing_handleClick);
   };
 }
 
+function checkIfReadyToStart() {
+  const goBtn = document.getElementById("placingGoBtn");
+  if (player1.gameboard.fleet.length === 5) {
+    if (!Array.from(goBtn.classList).includes("active")) {
+      goBtn.classList.add("active");
+    } 
+  } else {
+    if (Array.from(goBtn.classList).includes("active")) goBtn.classList.remove("active");
+  }
+}

@@ -5,7 +5,11 @@ import {
   displayEnemyBoard,
   displayPlayerBoard,
   displayedBoard,
-  language
+  language,
+  refreshStateDisplay,
+  refreshPlayerCounter,
+  drawStateDisplay_battle,
+  drawWinnerWindow
 } from "./dom";
 import { chooseRandomCell, generateRandomIntegerInRange, chooseOrientation } from "./ai";
 import { getEnergy, refreshAbilityState, abilityToPlace, Mine, Torpedo, Bomb } from "./dom_abilities";
@@ -13,9 +17,12 @@ import { logMessage } from "./dom_log";
 import { translation } from "./translation";
 
 let timeout = false;
-let aiSpeed = 2000;
+let aiSpeed = 1;
 
 export function battle_start() {
+  displayPlayerBoard("right");
+  drawStateDisplay_battle();
+  document.getElementById("buttonEnemies").dispatchEvent(new Event("click"));
   battle_addEventListeners_regularShot();
   logMessage(translation[language].messages.battleStarts);
   logMessage(translation[language].messages.isPlanning, { player: player1 })
@@ -73,6 +80,7 @@ export async function player1TakesTurn(e, options = { ability: null, cells: null
 
   } else {
     logMessage(translation[language].messages.isPlanning, { player: player2 });
+    refreshStateDisplay(player2);
     setTimeout(player2TakesTurn, aiSpeed);
   }
 }
@@ -146,6 +154,7 @@ export async function player2TakesTurn() {
       player2TakesTurn();    
   } else {
     timeout = false;
+    refreshStateDisplay(player1);
     logMessage(translation[language].messages.isPlanning, {player: player1});
   } 
 }
@@ -257,7 +266,9 @@ export async function player1Shoots(coordinates) {
   if (player2.gameboard.board[coordinates[0]][coordinates[1]].ship) {
     if (player2.gameboard.board[coordinates[0]][coordinates[1]].ship.type !== "mine") logMessage(translation[language].messages.shipHit)
   }
+
   player2.gameboard.receiveAttack(coordinates);
+  refreshPlayerCounter(player2);
   if (player2.gameboard.checkIfMine(coordinates)) await mineBlowsUp(player2);
   await clearDisplay();
   await displayEnemyBoard();
@@ -271,6 +282,7 @@ export async function player2Shoots(coordinates) {
   }
 
   player1.gameboard.receiveAttack(coordinates);
+  refreshPlayerCounter(player1);
   if (player1.gameboard.checkIfMine(coordinates)) await mineBlowsUp(player1);
   await clearDisplay("right");
   await displayPlayerBoard("right");
@@ -285,9 +297,10 @@ function showIllegalCellMessage() {
   console.log("We already shot here!");
 }
 
-function gameOver(player) {
+export function gameOver(player) {
   logMessage(translation[language].messages.gameOver);
   logMessage(translation[language].messages.playerHasWon, {player: player})
+  drawWinnerWindow(player);
   console.log (`Game Over, ${player} has won!`);
 }
 

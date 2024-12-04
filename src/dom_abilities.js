@@ -1,8 +1,7 @@
-import { readyImg, placeSVG, player1, player2, language, displayPlayerBoard, drawShip } from "./dom";
+import { readyImg, placeSVG, player1, language, displayPlayerBoard, drawShip, refreshPlayerPointsDisplay } from "./dom";
 import { ui, ships } from "./images";
-import { player1Shoots, player2TakesTurn, battle_removeEventListeners_regularShot, battle_addEventListeners_regularShot, player1TakesTurn } from "./dom_battle";
+import { player1Shoots, battle_removeEventListeners_regularShot, battle_addEventListeners_regularShot, player1TakesTurn } from "./dom_battle";
 import { translation } from "./translation";
-import { Ship } from "./ship";
 import { logMessage } from "./dom_log";
 
 
@@ -74,8 +73,9 @@ export function getEnergy(player) {
 }
 
 export function refreshAbilityState(player) {
+  refreshPlayerPointsDisplay(player)
   if (player.gameboard.abilities.abilityPoints > 0) activateAbilities(player)
-  else diactivateAbilities(player);
+  else deactivateAbilities(player);
 }
 
 function showAbilityContainers() {
@@ -219,7 +219,7 @@ function activateAbilities(player) {
     ? side = "left"
     : side = "right"
 
-  diactivateAbilities(player);
+  deactivateAbilities(player);
 
   if (player.gameboard.abilities.allowMine) toggleAbilityState(side, "mine", "on");
   if (player.gameboard.abilities.allowTorpedo) toggleAbilityState(side, "torpedo", "on");
@@ -227,7 +227,7 @@ function activateAbilities(player) {
   if (player.gameboard.abilities.allowBomb) toggleAbilityState(side, "bomb", "on");
 }
 
-function diactivateAbilities(player) {
+function deactivateAbilities(player) {
   let side;
   player === player1
     ? side = "left"
@@ -330,7 +330,7 @@ export class Bomb {
   async dropBomb() {
     player1.gameboard.abilities.abilityPoints--;
     refreshAbilityState(player1);
-    
+
     logMessage(translation[language].messages.useBomb, {player: player1, cells: this.cells});
     for(let cell of this.cells) {
       await player1Shoots(cell);

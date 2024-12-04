@@ -1,4 +1,7 @@
+import { language } from "./dom";
+import { logMessage } from "./dom_log";
 import { Ship } from "./ship";
+import { translation } from "./translation";
 export class Gameboard {
   constructor() {
     this.board = [];
@@ -18,7 +21,8 @@ export class Gameboard {
       allowDouble: false,
       allowBomb: false,
       extraTurn: false,
-    }
+    },
+    this.counter = 0;
   }
 
   placeShip(type, coordinates, options = {}) {
@@ -51,10 +55,12 @@ export class Gameboard {
 
     if (!target.isHit) {
       target.isHit = true;
+      this.counter++;
 
       if (target.ship && target.ship.type !== "mine") {
         target.ship.hit();
         if (target.ship.sunk) {
+          logMessage(translation[language].messages[`${target.ship.type}Destroyed`])
           if (target.ship.code === "3a") this.abilities.allowMine = false;
           else if (target.ship.code === "3b") this.abilities.allowTorpedo = false;
           else if (target.ship.code === "4") this.abilities.allowDouble = false;

@@ -7,6 +7,10 @@ import "./dom_abilities.js"
 import "./dom_displays.js";
 import "./dom_log.js";
 import "./ai.js";
+import { displayVersion, draw_mainFrame, draw_startScreen } from "./dom.js";
 
+export const currentVersion = "v0.9";
 
-// Remove cheat ability stats
+displayVersion();
+draw_mainFrame();
+draw_startScreen();
