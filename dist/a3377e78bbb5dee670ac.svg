@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70 45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_382);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #816c09;
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_382" data-name="Безымянный градиент 382" x1="6.25" y1="-6.25" x2="61.75" y2="49.25" gradientUnits="userSpaceOnUse">
+      <stop offset=".11" stop-color="#ded400"/>
+      <stop offset=".37" stop-color="#dbd101"/>
+      <stop offset=".56" stop-color="#d2c706"/>
+      <stop offset=".73" stop-color="#c3b70f"/>
+      <stop offset=".88" stop-color="#aea11b"/>
+      <stop offset="1" stop-color="#988a28"/>
+    </linearGradient>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g id="button_yellow" data-name="button yellow">
+      <rect class="cls-1" width="68" height="43"/>
+      <path class="cls-2" d="m68,43H0c.67.67,1.33,1.33,2,2h68c-.67-.67-1.33-1.33-2-2Z"/>
+      <path class="cls-2" d="m68,43c.67.67,1.33,1.33,2,2V2c-.67-.67-1.33-1.33-2-2v43Z"/>
+    </g>
+  </g>
+</svg>

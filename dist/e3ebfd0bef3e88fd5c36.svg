@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" preserveAspectRatio="none" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 99 98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_176);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#_Безымянный_градиент_17);
+      }
+
+      .cls-3 {
+        fill: url(#_Безымянный_градиент_124);
+      }
+
+      .cls-4 {
+        fill: url(#_Безымянный_градиент_177);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_177" data-name="Безымянный градиент 177" x1="47" y1="322" x2="47" y2="416" gradientTransform="translate(0 416) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#202129"/>
+      <stop offset=".24" stop-color="#2b2c35"/>
+      <stop offset=".56" stop-color="#34363e"/>
+      <stop offset="1" stop-color="#373942"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_17" data-name="Безымянный градиент 17" x1="94.01" y1="367" x2="99.01" y2="367" gradientTransform="translate(0 416) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333342"/>
+      <stop offset=".14" stop-color="#40404b"/>
+      <stop offset=".44" stop-color="#55555a"/>
+      <stop offset=".73" stop-color="#626263"/>
+      <stop offset="1" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_176" data-name="Безымянный градиент 176" x1="49.5" y1="318" x2="49.5" y2="322" gradientTransform="translate(0 416) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c1c24"/>
+      <stop offset=".64" stop-color="#1a1a22"/>
+      <stop offset=".87" stop-color="#14131b"/>
+      <stop offset="1" stop-color="#0d0c13"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_124" data-name="Безымянный градиент 124" x1="47.5" y1="328" x2="47.5" y2="411" gradientTransform="translate(0 416) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".02" stop-color="#868686"/>
+      <stop offset=".21" stop-color="#a7a7a7"/>
+      <stop offset="1" stop-color="#efefef"/>
+    </linearGradient>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g id="Middle_bar" data-name="Middle bar">
+      <g id="display_left">
+        <rect class="cls-4" width="94" height="94"/>
+        <path class="cls-2" d="m99,98c-1.67-1.33-3.33-2.67-5-4V0c1.67,1.33,3.33,2.67,5,4v94Z"/>
+        <path class="cls-1" d="m99,98H3c-1-1.33-2-2.67-3-4h94c1.67,1.33,3.33,2.67,5,4Z"/>
+        <path class="cls-3" d="m6,5v83h83V5H6Zm81,81H8V7h79v79Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
