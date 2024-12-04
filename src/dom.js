@@ -572,7 +572,7 @@ export async function toggleDisplay(e) {
   }
 }
 
-export function drawWinnerWindow(player) {
+export async function drawWinnerWindow(player) {
   // Left Pop Up
   let winnerPopUpLeft = document.createElement("div");
   winnerPopUpLeft.id = "winnerPopUpLeft";
@@ -591,7 +591,7 @@ export function drawWinnerWindow(player) {
   const containerLeft = document.getElementById("container_cellsLeft");
   const containerRight = document.getElementById("container_cellsRight");
   
-  containerLeft.appendChild(winnerPopUpLeft)
+  setTimeout(() => containerLeft.appendChild(winnerPopUpLeft), 500)
   
   
   //Right Pop Up
@@ -601,9 +601,9 @@ export function drawWinnerWindow(player) {
   player === player1
     ? playerIMG = avatars.cat
     : playerIMG = avatars.dog;
-  winnerPopUpRight.appendChild(readyImg(playerIMG, "winnerPopUpRightImage"))
+  winnerPopUpRight.appendChild(await readyImg(playerIMG, "winnerPopUpRightImage"))
   
-  containerRight.appendChild(winnerPopUpRight)
+  setTimeout(() => containerRight.appendChild(winnerPopUpRight), 500)
 
 }
 
