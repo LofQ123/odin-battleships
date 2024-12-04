@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1140 540">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: url(#_Безымянный_градиент_163-4);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47 {
+        stroke-width: 0px;
+      }
+
+      .cls-48 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-3 {
+        fill: url(#_Безымянный_градиент_163-2);
+      }
+
+      .cls-4 {
+        fill: url(#_Безымянный_градиент_151-2);
+      }
+
+      .cls-5 {
+        fill: url(#_Безымянный_градиент_151-25);
+      }
+
+      .cls-6 {
+        fill: url(#_Безымянный_градиент_151-4);
+      }
+
+      .cls-49 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-7 {
+        fill: url(#_Безымянный_градиент_151-21);
+      }
+
+      .cls-50 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-51 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-52 {
+        letter-spacing: .02em;
+      }
+
+      .cls-8 {
+        fill: url(#_Безымянный_градиент_163-3);
+      }
+
+      .cls-9 {
+        fill: url(#_Безымянный_градиент_151-10);
+      }
+
+      .cls-10 {
+        fill: url(#_Безымянный_градиент_151);
+      }
+
+      .cls-11 {
+        fill: url(#_Безымянный_градиент_151-3);
+      }
+
+      .cls-53 {
+        letter-spacing: .04em;
+      }
+
+      .cls-12 {
+        fill: url(#_Безымянный_градиент_151-19);
+      }
+
+      .cls-13 {
+        fill: url(#_Безымянный_градиент_153-3);
+      }
+
+      .cls-14 {
+        fill: url(#_Безымянный_градиент_151-13);
+      }
+
+      .cls-16 {
+        fill: url(#_Безымянный_градиент_151-12);
+      }
+
+      .cls-17 {
+        fill: url(#_Безымянный_градиент_18);
+      }
+
+      .cls-18 {
+        fill: url(#_Безымянный_градиент_151-18);
+      }
+
+      .cls-19 {
+        fill: url(#_Безымянный_градиент_153);
+      }
+
+      .cls-54 {
+        font-size: 20.26px;
+      }
+
+      .cls-54, .cls-55, .cls-56, .cls-57, .cls-58 {
+        font-family: BlackOpsOne-Regular, 'Black Ops One';
+      }
+
+      .cls-59 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        fill: url(#_Безымянный_градиент_151-5);
+      }
+
+      .cls-21 {
+        fill: url(#_Безымянный_градиент_151-15);
+      }
+
+      .cls-60 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-22 {
+        fill: url(#_Безымянный_градиент_151-8);
+      }
+
+      .cls-23 {
+        fill: url(#_Безымянный_градиент_151-14);
+      }
+
+      .cls-24 {
+        fill: url(#_Безымянный_градиент_151-16);
+      }
+
+      .cls-25 {
+        fill: url(#_Безымянный_градиент_163-6);
+      }
+
+      .cls-26 {
+        fill: url(#_Безымянный_градиент_26-2);
+      }
+
+      .cls-27 {
+        fill: url(#_Безымянный_градиент_153-2);
+      }
+
+      .cls-28 {
+        fill: url(#_Безымянный_градиент_151-9);
+      }
+
+      .cls-29 {
+        fill: url(#_Безымянный_градиент_26-4);
+      }
+
+      .cls-30 {
+        fill: url(#_Безымянный_градиент_26-3);
+      }
+
+      .cls-31 {
+        fill: url(#_Безымянный_градиент_151-11);
+      }
+
+      .cls-55 {
+        font-size: 17.77px;
+      }
+
+      .cls-32 {
+        fill: url(#_Безымянный_градиент_153-6);
+      }
+
+      .cls-33 {
+        fill: url(#_Безымянный_градиент_151-24);
+      }
+
+      .cls-34 {
+        fill: url(#_Безымянный_градиент_163);
+      }
+
+      .cls-56 {
+        font-size: 24.06px;
+      }
+
+      .cls-35 {
+        fill: url(#_Безымянный_градиент_151-6);
+      }
+
+      .cls-57 {
+        font-size: 23.2px;
+      }
+
+      .cls-61 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-36 {
+        fill: url(#_Безымянный_градиент_17);
+      }
+
+      .cls-37 {
+        fill: url(#_Безымянный_градиент_151-7);
+      }
+
+      .cls-62 {
+        letter-spacing: 0em;
+      }
+
+      .cls-63 {
+        letter-spacing: .03em;
+      }
+
+      .cls-38 {
+        fill: url(#_Безымянный_градиент_151-17);
+      }
+
+      .cls-39 {
+        fill: url(#_Безымянный_градиент_153-5);
+      }
+
+      .cls-40 {
+        fill: url(#_Безымянный_градиент_212);
+      }
+
+      .cls-64 {
+        letter-spacing: 0em;
+      }
+
+      .cls-41 {
+        fill: url(#_Безымянный_градиент_163-5);
+      }
+
+      .cls-42 {
+        fill: url(#_Безымянный_градиент_151-20);
+      }
+
+      .cls-65 {
+        letter-spacing: 0em;
+      }
+
+      .cls-66 {
+        letter-spacing: 0em;
+      }
+
+      .cls-43 {
+        fill: url(#_Безымянный_градиент_26-5);
+      }
+
+      .cls-44 {
+        fill: url(#_Безымянный_градиент_26);
+      }
+
+      .cls-58 {
+        font-size: 18.42px;
+      }
+
+      .cls-45 {
+        fill: url(#_Безымянный_градиент_153-4);
+      }
+
+      .cls-46 {
+        fill: url(#_Безымянный_градиент_151-22);
+      }
+
+      .cls-67 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-47 {
+        fill: url(#_Безымянный_градиент_151-23);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_212" data-name="Безымянный градиент 212" x1="0" y1="265" x2="1130" y2="265" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#829bab"/>
+      <stop offset=".83" stop-color="#7b92a2"/>
+      <stop offset=".94" stop-color="#6f8292"/>
+      <stop offset="1" stop-color="#667787"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_18" data-name="Безымянный градиент 18" x1="570" y1="530" x2="570" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d5160"/>
+      <stop offset=".01" stop-color="#4b4e5d"/>
+      <stop offset=".13" stop-color="#3d3f4c"/>
+      <stop offset=".26" stop-color="#343541"/>
+      <stop offset=".46" stop-color="#2e2f3a"/>
+      <stop offset="1" stop-color="#2d2d38"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_17" data-name="Безымянный градиент 17" x1="1130.02" y1="270" x2="1140.02" y2="270" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333342"/>
+      <stop offset=".14" stop-color="#40404b"/>
+      <stop offset=".44" stop-color="#55555a"/>
+      <stop offset=".73" stop-color="#626263"/>
+      <stop offset="1" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_153" data-name="Безымянный градиент 153" x1="1104.49" y1="16.52" x2="1106.98" y2="32.01" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="gray"/>
+      <stop offset=".1" stop-color="#8e8e8e"/>
+      <stop offset=".2" stop-color="#9f9f9f"/>
+      <stop offset=".33" stop-color="#aaa"/>
+      <stop offset=".51" stop-color="#b1b1b1"/>
+      <stop offset="1" stop-color="#b3b3b3"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_163" data-name="Безымянный градиент 163" x1="1102.42" y1="16.39" x2="1109.6" y2="33.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".24" stop-color="#fdfdfd"/>
+      <stop offset=".38" stop-color="#f5f5f5"/>
+      <stop offset=".48" stop-color="#e7e7e7"/>
+      <stop offset=".57" stop-color="#d4d4d4"/>
+      <stop offset=".6" stop-color="#ccc"/>
+      <stop offset=".67" stop-color="#b9b9b9"/>
+      <stop offset=".8" stop-color="#9a9a9a"/>
+      <stop offset=".92" stop-color="#878787"/>
+      <stop offset=".99" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_153-2" data-name="Безымянный градиент 153" x1="23.02" y1="16.52" x2="25.51" y2="32.01" xlink:href="#_Безымянный_градиент_153"/>
+    <linearGradient id="_Безымянный_градиент_163-2" data-name="Безымянный градиент 163" x1="20.96" y1="16.39" x2="28.14" y2="33.49" xlink:href="#_Безымянный_градиент_163"/>
+    <linearGradient id="_Безымянный_градиент_153-3" data-name="Безымянный градиент 153" x1="23.02" y1="497.99" x2="25.51" y2="513.48" xlink:href="#_Безымянный_градиент_153"/>
+    <linearGradient id="_Безымянный_градиент_163-3" data-name="Безымянный градиент 163" x1="20.96" y1="497.86" x2="28.14" y2="514.95" xlink:href="#_Безымянный_градиент_163"/>
+    <linearGradient id="_Безымянный_градиент_153-4" data-name="Безымянный градиент 153" x1="1104.49" y1="497.99" x2="1106.98" y2="513.48" xlink:href="#_Безымянный_градиент_153"/>
+    <linearGradient id="_Безымянный_градиент_163-4" data-name="Безымянный градиент 163" x1="1102.42" y1="497.86" x2="1109.6" y2="514.95" xlink:href="#_Безымянный_градиент_163"/>
+    <linearGradient id="_Безымянный_градиент_26" data-name="Безымянный градиент 26" x1="20" y1="-94.5" x2="28" y2="-94.5" gradientTransform="translate(0 170) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".02" stop-color="gray"/>
+      <stop offset=".22" stop-color="#828282"/>
+      <stop offset=".3" stop-color="#898989"/>
+      <stop offset=".35" stop-color="#959595"/>
+      <stop offset=".4" stop-color="#a6a6a6"/>
+      <stop offset=".44" stop-color="#bdbdbd"/>
+      <stop offset=".47" stop-color="#d8d8d8"/>
+      <stop offset=".5" stop-color="#f8f8f8"/>
+      <stop offset=".51" stop-color="#fff"/>
+      <stop offset=".52" stop-color="#f6f8f8"/>
+      <stop offset=".55" stop-color="#dbe2e2"/>
+      <stop offset=".59" stop-color="#c5d1d1"/>
+      <stop offset=".64" stop-color="#b4c3c3"/>
+      <stop offset=".7" stop-color="#a9baba"/>
+      <stop offset=".78" stop-color="#a2b4b4"/>
+      <stop offset="1" stop-color="#a0b3b3"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_153-5" data-name="Безымянный градиент 153" x1="656.02" y1="16.52" x2="658.51" y2="32.01" xlink:href="#_Безымянный_градиент_153"/>
+    <linearGradient id="_Безымянный_градиент_163-5" data-name="Безымянный градиент 163" x1="653.96" y1="16.39" x2="661.14" y2="33.49" xlink:href="#_Безымянный_градиент_163"/>
+    <linearGradient id="_Безымянный_градиент_153-6" data-name="Безымянный градиент 153" x1="656.02" y1="497.99" x2="658.51" y2="513.48" xlink:href="#_Безымянный_градиент_153"/>
+    <linearGradient id="_Безымянный_градиент_163-6" data-name="Безымянный градиент 163" x1="653.96" y1="497.86" x2="661.14" y2="514.95" xlink:href="#_Безымянный_градиент_163"/>
+    <linearGradient id="_Безымянный_градиент_26-2" data-name="Безымянный градиент 26" x1="653" x2="661" xlink:href="#_Безымянный_градиент_26"/>
+    <linearGradient id="_Безымянный_градиент_26-3" data-name="Безымянный градиент 26" x1="1102" y1="-52" x2="1110" y2="-52" xlink:href="#_Безымянный_градиент_26"/>
+    <linearGradient id="_Безымянный_градиент_26-4" data-name="Безымянный градиент 26" x1="665.01" y1="-448.19" x2="673.01" y2="-448.19" gradientTransform="translate(447.31 1100.01) rotate(-90) scale(1 -1)" xlink:href="#_Безымянный_градиент_26"/>
+    <linearGradient id="_Безымянный_градиент_26-5" data-name="Безымянный градиент 26" x1="681" y1="-52" x2="689" y2="-52" xlink:href="#_Безымянный_градиент_26"/>
+    <linearGradient id="_Безымянный_градиент_151" data-name="Безымянный градиент 151" x1="-958.97" y1="445" x2="-958.97" y2="457" gradientTransform="translate(-63.47) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="gray"/>
+      <stop offset=".13" stop-color="#868686"/>
+      <stop offset=".69" stop-color="#a7a7a7"/>
+      <stop offset="1" stop-color="#b3b3b3"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_151-2" data-name="Безымянный градиент 151" x1="-958.97" y1="461" x2="-958.97" y2="473" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-3" data-name="Безымянный градиент 151" x1="-958.97" y1="477" x2="-958.97" y2="489" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-4" data-name="Безымянный градиент 151" x1="-958.97" y1="493" x2="-958.97" y2="505" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-5" data-name="Безымянный градиент 151" x1="-661.47" y1="273" x2="-661.47" y2="279" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-6" data-name="Безымянный градиент 151" x1="-661.47" y1="262" x2="-661.47" y2="268" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-7" data-name="Безымянный градиент 151" x1="-661.47" y1="251" x2="-661.47" y2="257" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-8" data-name="Безымянный градиент 151" x1="-661.47" y1="240" x2="-661.47" y2="246" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-9" data-name="Безымянный градиент 151" x1="-661.47" y1="229" x2="-661.47" y2="235" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-10" data-name="Безымянный градиент 151" x1="-661.47" y1="218" x2="-661.47" y2="224" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-11" data-name="Безымянный градиент 151" x1="-661.47" y1="207" x2="-661.47" y2="213" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-12" data-name="Безымянный градиент 151" x1="-661.47" y1="196" x2="-661.47" y2="202" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-13" data-name="Безымянный градиент 151" x1="-661.47" y1="185" x2="-661.47" y2="191" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-14" data-name="Безымянный градиент 151" x1="-661.47" y1="174" x2="-661.47" y2="180" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-15" data-name="Безымянный градиент 151" x1="-661.47" y1="163" x2="-661.47" y2="169" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-16" data-name="Безымянный градиент 151" x1="-661.47" y1="152" x2="-661.47" y2="158" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-17" data-name="Безымянный градиент 151" x1="-661.47" y1="141" x2="-661.47" y2="147" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-18" data-name="Безымянный градиент 151" x1="-661.47" y1="130" x2="-661.47" y2="136" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-19" data-name="Безымянный градиент 151" x1="-661.47" y1="119" x2="-661.47" y2="125" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-20" data-name="Безымянный градиент 151" x1="-661.47" y1="108" x2="-661.47" y2="114" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-21" data-name="Безымянный градиент 151" x1="-661.47" y1="97" x2="-661.47" y2="103" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-22" data-name="Безымянный градиент 151" x1="-661.47" y1="86" x2="-661.47" y2="92" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-23" data-name="Безымянный градиент 151" x1="-661.47" y1="75" x2="-661.47" y2="81" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-24" data-name="Безымянный градиент 151" x1="-661.47" y1="64" x2="-661.47" y2="70" xlink:href="#_Безымянный_градиент_151"/>
+    <linearGradient id="_Безымянный_градиент_151-25" data-name="Безымянный градиент 151" x1="-661.47" y1="53" x2="-661.47" y2="59" xlink:href="#_Безымянный_градиент_151"/>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g id="Game_Board" data-name="Game Board">
+      <g id="Body">
+        <rect class="cls-40" width="1130" height="530"/>
+        <path class="cls-17" d="m21.31,540h1118.69c-3.33-3.33-6.67-6.67-10-10H0c7.1,3.33,14.21,6.67,21.31,10Z"/>
+        <path class="cls-36" d="m1140,540c-3.33-3.33-6.67-6.67-10-10V0c3.33,3.36,6.67,6.73,10,10.09v529.91Z"/>
+        <g id="Screw">
+          <circle class="cls-19" cx="1105.73" cy="24.27" r="7.84"/>
+          <circle class="cls-34" cx="1105.73" cy="24.27" r="9.27"/>
+          <rect class="cls-15" x="1099.32" y="23.56" width="12.83" height="1.43" transform="translate(93.6 470.16) rotate(-25.03)"/>
+        </g>
+        <g id="Screw-2" data-name="Screw">
+          <circle class="cls-27" cx="24.27" cy="24.27" r="7.84"/>
+          <circle class="cls-3" cx="24.27" cy="24.27" r="9.27"/>
+          <rect class="cls-15" x="17.85" y="23.56" width="12.83" height="1.43"/>
+        </g>
+        <g id="Screw-3" data-name="Screw">
+          <circle class="cls-13" cx="24.27" cy="505.73" r="7.84"/>
+          <circle class="cls-8" cx="24.27" cy="505.73" r="9.27"/>
+          <rect class="cls-15" x="17.85" y="505.02" width="12.83" height="1.43" transform="translate(-396.37 223.92) rotate(-53.43)"/>
+        </g>
+        <g id="Screw-4" data-name="Screw">
+          <circle class="cls-45" cx="1105.73" cy="505.73" r="7.84"/>
+          <circle class="cls-2" cx="1105.73" cy="505.73" r="9.27"/>
+          <rect class="cls-15" x="1099.32" y="505.02" width="12.83" height="1.43" transform="translate(245.39 -353.47) rotate(20.38)"/>
+        </g>
+        <rect class="cls-44" x="20" y="40" width="8" height="449"/>
+        <g id="Screw-5" data-name="Screw">
+          <circle class="cls-39" cx="657.27" cy="24.27" r="7.84"/>
+          <circle class="cls-41" cx="657.27" cy="24.27" r="9.27"/>
+          <rect class="cls-15" x="650.85" y="23.56" width="12.83" height="1.43"/>
+        </g>
+        <g id="Screw-6" data-name="Screw">
+          <circle class="cls-32" cx="657.27" cy="505.73" r="7.84"/>
+          <circle class="cls-25" cx="657.27" cy="505.73" r="9.27"/>
+          <rect class="cls-15" x="650.85" y="505.02" width="12.83" height="1.43" transform="translate(-140.5 732.31) rotate(-53.43)"/>
+        </g>
+        <rect class="cls-26" x="653" y="40" width="8" height="449"/>
+        <rect class="cls-30" x="1102" y="50" width="8" height="344"/>
+        <rect class="cls-29" x="724" y="427" width="343" height="8"/>
+        <rect class="cls-43" x="681" y="50" width="8" height="344"/>
+        <path class="cls-10" d="m724,451c0,1.66.95,3.16,2.5,4.24,1.54,1.09,3.67,1.76,6.03,1.76h325.92c4.71,0,8.54-2.69,8.54-6,0-1.66-.95-3.16-2.5-4.24-1.54-1.09-3.67-1.76-6.03-1.76h-325.92c-4.71,0-8.54,2.69-8.54,6Zm2.85,0c0-2.21,2.55-4,5.69-4h325.92c1.57,0,2.99.45,4.03,1.17,1.02.73,1.67,1.73,1.67,2.83,0,2.21-2.55,4-5.69,4h-325.92c-1.57,0-2.99-.45-4.03-1.17-1.02-.73-1.67-1.73-1.67-2.83Z"/>
+        <path class="cls-4" d="m724,467c0,1.66.95,3.16,2.5,4.24,1.54,1.09,3.67,1.76,6.03,1.76h325.92c4.71,0,8.54-2.69,8.54-6,0-1.66-.95-3.16-2.5-4.24-1.54-1.09-3.67-1.76-6.03-1.76h-325.92c-4.71,0-8.54,2.69-8.54,6Zm2.85,0c0-2.21,2.55-4,5.69-4h325.92c1.57,0,2.99.45,4.03,1.17,1.02.73,1.67,1.73,1.67,2.83,0,2.21-2.55,4-5.69,4h-325.92c-1.57,0-2.99-.45-4.03-1.17-1.02-.73-1.67-1.73-1.67-2.83Z"/>
+        <path class="cls-11" d="m724,483c0,1.66.95,3.16,2.5,4.24,1.54,1.09,3.67,1.76,6.03,1.76h325.92c4.71,0,8.54-2.69,8.54-6,0-1.66-.95-3.16-2.5-4.24-1.54-1.09-3.67-1.76-6.03-1.76h-325.92c-4.71,0-8.54,2.69-8.54,6Zm2.85,0c0-2.21,2.55-4,5.69-4h325.92c1.57,0,2.99.45,4.03,1.17,1.02.73,1.67,1.73,1.67,2.83,0,2.21-2.55,4-5.69,4h-325.92c-1.57,0-2.99-.45-4.03-1.17-1.02-.73-1.67-1.73-1.67-2.83Z"/>
+        <path class="cls-6" d="m724,499c0,1.66.95,3.16,2.5,4.24,1.54,1.09,3.67,1.76,6.03,1.76h325.92c4.71,0,8.54-2.69,8.54-6,0-1.66-.95-3.16-2.5-4.24-1.54-1.09-3.67-1.76-6.03-1.76h-325.92c-4.71,0-8.54,2.69-8.54,6Zm2.85,0c0-2.21,2.55-4,5.69-4h325.92c1.57,0,2.99.45,4.03,1.17,1.02.73,1.67,1.73,1.67,2.83,0,2.21-2.55,4-5.69,4h-325.92c-1.57,0-2.99-.45-4.03-1.17-1.02-.73-1.67-1.73-1.67-2.83Z"/>
+        <text class="cls-54" transform="translate(563 437.69) scale(.95 1)"><tspan class="cls-62" x="0" y="0">E</tspan><tspan class="cls-65" x="13.93" y="0">N</tspan><tspan class="cls-62" x="28.65" y="0">E</tspan><tspan x="42.58" y="0">MY</tspan></text>
+        <text class="cls-54" transform="translate(563.03 354.7) scale(.89 1)"><tspan class="cls-66" x="0" y="0">A</tspan><tspan class="cls-63" x="14.77" y="0">L</tspan><tspan class="cls-52" x="27.92" y="0">L</tspan><tspan x="40.97" y="0">I</tspan><tspan class="cls-49" x="49.89" y="0">E</tspan><tspan x="63.66" y="0">S</tspan></text>
+        <text class="cls-54" transform="translate(558 313.84) scale(.83 1)"><tspan class="cls-64" x="0" y="0">D</tspan><tspan class="cls-60" x="14.59" y="0">I</tspan><tspan class="cls-1" x="23.29" y="0">S</tspan><tspan class="cls-59" x="37.77" y="0">P</tspan><tspan class="cls-53" x="52.21" y="0">L</tspan><tspan class="cls-67" x="65.58" y="0">A</tspan><tspan class="cls-48" x="78.64" y="0">Y</tspan><tspan x="90.3" y="0">:</tspan></text>
+        <g>
+          <line class="cls-51" x1="642.5" y1="307.5" x2="642.5" y2="466.5"/>
+          <line class="cls-51" x1="635.5" y1="383.5" x2="642.5" y2="383.5"/>
+          <line class="cls-51" x1="635.5" y1="466.5" x2="642.5" y2="466.5"/>
+        </g>
+        <path class="cls-20" d="m563,276c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-35" d="m563,265c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-37" d="m563,254c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-22" d="m563,243c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-28" d="m563,232c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-9" d="m563,221c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-31" d="m563,210c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-16" d="m563,199c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-14" d="m563,188c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-23" d="m563,177c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-21" d="m563,166c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-24" d="m563,155c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-38" d="m563,144c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-18" d="m563,133c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-12" d="m563,122c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-42" d="m563,111c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-7" d="m563,100c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-46" d="m563,89c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-47" d="m563,78c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-33" d="m563,67c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <path class="cls-5" d="m563,56c0,.83.19,1.58.51,2.12.31.55.75.88,1.23.88h66.51c.96,0,1.74-1.35,1.74-3,0-.83-.19-1.58-.51-2.12-.31-.55-.75-.88-1.23-.88h-66.51c-.96,0-1.74,1.35-1.74,3Zm.58,0c0-1.11.52-2,1.16-2h66.51c.32,0,.61.23.82.58.21.37.34.87.34,1.42,0,1.11-.52,2-1.16,2h-66.51c-.32,0-.61-.23-.82-.58-.21-.37-.34-.87-.34-1.42Z"/>
+        <polygon class="cls-15" points="639 323.5 639 326.5 568 326.5 568 329 558 325 568 321 568 323.5 639 323.5"/>
+      </g>
+      <g id="Right_Board" data-name="Right Board">
+        <g id="Frame">
+          <g id="_Слой_13_копия_" data-name="Слой 13 (копия)">
+            <g id="_Слой_10_копия_" data-name="Слой 10 (копия)">
+              <text class="cls-55" transform="translate(735.47 41.64) scale(1.03 1)"><tspan x="0" y="0">1</tspan></text>
+              <text class="cls-55" transform="translate(769.84 41.64) scale(.82 1)"><tspan x="0" y="0">2</tspan></text>
+              <text class="cls-55" transform="translate(804.21 41.64) scale(.82 1)"><tspan x="0" y="0">3</tspan></text>
+              <text class="cls-55" transform="translate(838.57 41.64) scale(.82 1)"><tspan x="0" y="0">4</tspan></text>
+              <text class="cls-55" transform="translate(872.94 41.64) scale(.82 1)"><tspan x="0" y="0">5</tspan></text>
+              <text class="cls-55" transform="translate(907.31 41.64) scale(.82 1)"><tspan x="0" y="0">6</tspan></text>
+              <text class="cls-55" transform="translate(941.68 41.64) scale(.82 1)"><tspan x="0" y="0">7</tspan></text>
+              <text class="cls-55" transform="translate(976.04 41.64) scale(.82 1)"><tspan x="0" y="0">8</tspan></text>
+              <text class="cls-55" transform="translate(1010.41 41.64) scale(.82 1)"><tspan x="0" y="0">9</tspan></text>
+              <text class="cls-55" transform="translate(1039.55 41.64) scale(.95 1)"><tspan class="cls-50" x="0" y="0">1</tspan><tspan x="9.12" y="0">0</tspan></text>
+              <text class="cls-55" transform="translate(735.47 414.47) scale(1.03 1)"><tspan x="0" y="0">1</tspan></text>
+              <text class="cls-55" transform="translate(769.84 414.47) scale(.82 1)"><tspan x="0" y="0">2</tspan></text>
+              <text class="cls-55" transform="translate(804.21 414.47) scale(.82 1)"><tspan x="0" y="0">3</tspan></text>
+              <text class="cls-55" transform="translate(838.57 414.47) scale(.82 1)"><tspan x="0" y="0">4</tspan></text>
+              <text class="cls-55" transform="translate(872.94 414.47) scale(.82 1)"><tspan x="0" y="0">5</tspan></text>
+              <text class="cls-55" transform="translate(907.31 414.47) scale(.82 1)"><tspan x="0" y="0">6</tspan></text>
+              <text class="cls-55" transform="translate(941.68 414.47) scale(.82 1)"><tspan x="0" y="0">7</tspan></text>
+              <text class="cls-55" transform="translate(976.04 414.47) scale(.82 1)"><tspan x="0" y="0">8</tspan></text>
+              <text class="cls-55" transform="translate(1010.41 414.47) scale(.82 1)"><tspan x="0" y="0">9</tspan></text>
+              <text class="cls-55" transform="translate(1039.55 414.47) scale(.95 1)"><tspan class="cls-50" x="0" y="0">1</tspan><tspan x="9.12" y="0">0</tspan></text>
+            </g>
+            <g id="_Слой_11_копия_" data-name="Слой 11 (копия)">
+              <text class="cls-58" transform="translate(704.84 72.06) scale(.83 1)"><tspan x="0" y="0">A</tspan></text>
+              <text class="cls-58" transform="translate(704.84 106.43) scale(.83 1)"><tspan x="0" y="0">B</tspan></text>
+              <text class="cls-58" transform="translate(704.84 140.8) scale(.83 1)"><tspan x="0" y="0">C</tspan></text>
+              <text class="cls-58" transform="translate(704.84 175.17) scale(.83 1)"><tspan x="0" y="0">D</tspan></text>
+              <text class="cls-58" transform="translate(704.84 209.54) scale(.83 1)"><tspan x="0" y="0">E</tspan></text>
+              <text class="cls-58" transform="translate(704.84 243.9) scale(.83 1)"><tspan x="0" y="0">F</tspan></text>
+              <text class="cls-58" transform="translate(704.84 278.27) scale(.83 1)"><tspan x="0" y="0">G</tspan></text>
+              <text class="cls-58" transform="translate(704.84 312.64) scale(.83 1)"><tspan x="0" y="0">H</tspan></text>
+              <text class="cls-58" transform="translate(706.33 347.01) scale(1.01 1)"><tspan x="0" y="0">I</tspan></text>
+              <text class="cls-58" transform="translate(704.84 381.37) scale(.83 1)"><tspan x="0" y="0">J</tspan></text>
+              <text class="cls-58" transform="translate(1074.67 72.06) scale(.83 1)"><tspan x="0" y="0">A</tspan></text>
+              <text class="cls-58" transform="translate(1074.67 106.43) scale(.83 1)"><tspan x="0" y="0">B</tspan></text>
+              <text class="cls-58" transform="translate(1074.67 140.8) scale(.83 1)"><tspan x="0" y="0">C</tspan></text>
+              <text class="cls-58" transform="translate(1074.67 175.17) scale(.83 1)"><tspan x="0" y="0">D</tspan></text>
+              <text class="cls-58" transform="translate(1074.67 209.54) scale(.83 1)"><tspan x="0" y="0">E</tspan></text>
+              <text class="cls-58" transform="translate(1074.67 243.9) scale(.83 1)"><tspan x="0" y="0">F</tspan></text>
+              <text class="cls-58" transform="translate(1074.67 278.27) scale(.83 1)"><tspan x="0" y="0">G</tspan></text>
+              <text class="cls-58" transform="translate(1074.67 312.64) scale(.83 1)"><tspan x="0" y="0">H</tspan></text>
+              <text class="cls-58" transform="translate(1076.16 347.01) scale(1.01 1)"><tspan x="0" y="0">I</tspan></text>
+              <text class="cls-58" transform="translate(1074.67 381.37) scale(.83 1)"><tspan x="0" y="0">J</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Left_Board" data-name="Left Board">
+        <g id="Frame-2" data-name="Frame">
+          <g id="_Слой_13" data-name="Слой 13">
+            <g id="_Слой_10" data-name="Слой 10">
+              <text class="cls-57" transform="translate(88.06 29.11) scale(1.03 1)"><tspan x="0" y="0">1</tspan></text>
+              <text class="cls-57" transform="translate(132.94 29.11) scale(.82 1)"><tspan x="0" y="0">2</tspan></text>
+              <text class="cls-57" transform="translate(177.82 29.11) scale(.82 1)"><tspan x="0" y="0">3</tspan></text>
+              <text class="cls-57" transform="translate(222.69 29.11) scale(.82 1)"><tspan x="0" y="0">4</tspan></text>
+              <text class="cls-57" transform="translate(267.57 29.11) scale(.82 1)"><tspan x="0" y="0">5</tspan></text>
+              <text class="cls-57" transform="translate(312.45 29.11) scale(.82 1)"><tspan x="0" y="0">6</tspan></text>
+              <text class="cls-57" transform="translate(357.33 29.11) scale(.82 1)"><tspan x="0" y="0">7</tspan></text>
+              <text class="cls-57" transform="translate(402.21 29.11) scale(.82 1)"><tspan x="0" y="0">8</tspan></text>
+              <text class="cls-57" transform="translate(447.08 29.11) scale(.82 1)"><tspan x="0" y="0">9</tspan></text>
+              <text class="cls-57" transform="translate(485.13 29.11) scale(.95 1)"><tspan class="cls-61" x="0" y="0">1</tspan><tspan x="11.9" y="0">0</tspan></text>
+              <text class="cls-57" transform="translate(88.06 515.04) scale(1.03 1)"><tspan x="0" y="0">1</tspan></text>
+              <text class="cls-57" transform="translate(132.94 515.04) scale(.82 1)"><tspan x="0" y="0">2</tspan></text>
+              <text class="cls-57" transform="translate(177.82 515.04) scale(.82 1)"><tspan x="0" y="0">3</tspan></text>
+              <text class="cls-57" transform="translate(222.69 515.04) scale(.82 1)"><tspan x="0" y="0">4</tspan></text>
+              <text class="cls-57" transform="translate(267.57 515.04) scale(.82 1)"><tspan x="0" y="0">5</tspan></text>
+              <text class="cls-57" transform="translate(312.45 515.04) scale(.82 1)"><tspan x="0" y="0">6</tspan></text>
+              <text class="cls-57" transform="translate(357.33 515.04) scale(.82 1)"><tspan x="0" y="0">7</tspan></text>
+              <text class="cls-57" transform="translate(402.21 515.04) scale(.82 1)"><tspan x="0" y="0">8</tspan></text>
+              <text class="cls-57" transform="translate(447.08 515.04) scale(.82 1)"><tspan x="0" y="0">9</tspan></text>
+              <text class="cls-57" transform="translate(485.13 515.04) scale(.95 1)"><tspan class="cls-61" x="0" y="0">1</tspan><tspan x="11.9" y="0">0</tspan></text>
+            </g>
+            <g id="_Слой_11" data-name="Слой 11">
+              <text class="cls-56" transform="translate(48.06 68.85) scale(.83 1)"><tspan x="0" y="0">A</tspan></text>
+              <text class="cls-56" transform="translate(48.06 113.72) scale(.83 1)"><tspan x="0" y="0">B</tspan></text>
+              <text class="cls-56" transform="translate(48.06 158.6) scale(.83 1)"><tspan x="0" y="0">C</tspan></text>
+              <text class="cls-56" transform="translate(48.06 203.48) scale(.83 1)"><tspan x="0" y="0">D</tspan></text>
+              <text class="cls-56" transform="translate(48.06 248.36) scale(.83 1)"><tspan x="0" y="0">E</tspan></text>
+              <text class="cls-56" transform="translate(48.06 293.24) scale(.83 1)"><tspan x="0" y="0">F</tspan></text>
+              <text class="cls-56" transform="translate(48.06 338.11) scale(.83 1)"><tspan x="0" y="0">G</tspan></text>
+              <text class="cls-56" transform="translate(48.06 382.99) scale(.83 1)"><tspan x="0" y="0">H</tspan></text>
+              <text class="cls-56" transform="translate(50.01 427.87) scale(1.01 1)"><tspan x="0" y="0">I</tspan></text>
+              <text class="cls-56" transform="translate(48.06 472.75) scale(.83 1)"><tspan x="0" y="0">J</tspan></text>
+              <text class="cls-56" transform="translate(530.98 68.85) scale(.83 1)"><tspan x="0" y="0">A</tspan></text>
+              <text class="cls-56" transform="translate(530.98 113.72) scale(.83 1)"><tspan x="0" y="0">B</tspan></text>
+              <text class="cls-56" transform="translate(530.98 158.6) scale(.83 1)"><tspan x="0" y="0">C</tspan></text>
+              <text class="cls-56" transform="translate(530.98 203.48) scale(.83 1)"><tspan x="0" y="0">D</tspan></text>
+              <text class="cls-56" transform="translate(530.98 248.36) scale(.83 1)"><tspan x="0" y="0">E</tspan></text>
+              <text class="cls-56" transform="translate(530.98 293.24) scale(.83 1)"><tspan x="0" y="0">F</tspan></text>
+              <text class="cls-56" transform="translate(530.98 338.11) scale(.83 1)"><tspan x="0" y="0">G</tspan></text>
+              <text class="cls-56" transform="translate(530.98 382.99) scale(.83 1)"><tspan x="0" y="0">H</tspan></text>
+              <text class="cls-56" transform="translate(532.94 427.87) scale(1.01 1)"><tspan x="0" y="0">I</tspan></text>
+              <text class="cls-56" transform="translate(530.98 472.75) scale(.83 1)"><tspan x="0" y="0">J</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
