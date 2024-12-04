@@ -1,4 +1,5 @@
 import { player2, player1 } from "./dom";
+import { Gameboard } from "./gameboard";
 
 export function chooseOrientation() {
   let n = generateRandomIntegerInRange(1, 2);
@@ -66,6 +67,8 @@ export function placeShipAtGeneratedPosition(type, player = player2) {
 }
 
 export function generateFleet(player) { 
+  player.gameboard = new Gameboard();
+
   placeShipAtGeneratedPosition("5", player); 
   placeShipAtGeneratedPosition("4", player);
   placeShipAtGeneratedPosition("3b", player);
