@@ -17,7 +17,7 @@ import { logMessage } from "./dom_log";
 import { translation } from "./translation";
 
 let timeout = false;
-let aiSpeed = 1;
+let aiSpeed = 2000;
 
 export function battle_start() {
   displayPlayerBoard("right");
